@@ -11,7 +11,6 @@
 
 简介
 1、	导入SDK到工程
-
 2、	添加Embedder Binaries
 3、	设置URL Schemes(注意在appdelegate中有使用)
 4、	在plist文件中添加白名单，参见demo
