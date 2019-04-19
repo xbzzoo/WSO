@@ -1,15 +1,11 @@
-# WSO SDK
+# WSO 
 
-
+SDK
 网盘地址：https://pan.baidu.com/s/1RPqE9xZzj_9_OAVq1Xo0GQ 提取码：m0dt
 
-解压该dmg 文件 包括framework  文档  demo
+解压该dmg 文件 包括framework 、文档 、 demo
 
-
-
-
-
-简介
+集成简介
 1、	导入SDK到工程
 2、	添加Embedder Binaries
 3、	设置URL Schemes(注意在appdelegate中有使用)
@@ -19,3 +15,6 @@
 7、	获取设备信息、用户信息，可见demo中GeneralInfoViewController.swift文件，其中主要用到的类为UserInformationController，DeviceInformationController
 8、	tunnel相关部分并无代码，demo中TunnelingViewController.swfit中代码均为UI绘制相关，与通道检测。
 9、	Demo中注册二维码部分介绍：通过类中接口可获取到一个url，根据此Url可实现注册
+
+
+API
