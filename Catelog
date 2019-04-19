@@ -1,0 +1,10 @@
+catelog 的地址 https://{Environment}/Catalog/ViewCatalog/{SecureDeviceUdid}/{DevicePlatform}
+
+地址说明:{envirement}console地址，{SecureDeviceUdid}通过ACE方式获取（注意 不是seriesNumber，有独立的此值）， {DevicePlatform}==apple
+
+
+
+
+
+
+console 设置：Groups & Settings / All Settings / Apps / Catalog / General / Publishing / Platforms.
