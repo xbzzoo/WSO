@@ -1,15 +1,11 @@
 # WSO SDK
 
 
-网盘地址：https://pan.baidu.com/s/1RPqE9xZzj_9_OAVq1Xo0GQ 提取码：m0dt
-
-解压该dmg 文件 包括framework  文档  demo
-
-
-
+网盘地址：https://pan.baidu.com/s/1RPqE9xZzj_9_OAVq1Xo0GQ 提取码：m0dt (解压该dmg文件 包括framework 、文档、 demo)
 
 
 简介
+
 1、	导入SDK到工程
 2、	添加Embedder Binaries
 3、	设置URL Schemes(注意在appdelegate中有使用)
@@ -21,6 +17,7 @@
 9、	Demo中注册二维码部分介绍：通过类中接口可获取到一个url，根据此Url可实现注册
 
 
-API
+# WSO API
 文档链接: https://pan.baidu.com/s/1LrCqcZrkR2u_C8-shNIeMQ 提取码: w46b
+
 使用说明 ：参见API文档说明
