@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "제공한 자격 증명을 검증할 수 없습니다. 다시 시도하십시오.";
+"AuthenticateToResetPasscode" = "암호를 재설정하려면 먼저 인증 받아야 합니다.";
+"Username"="사용자 이름";
+"Password" = "비밀번호";
+"UpdateUsernameWarningMessageTitle" = "사용자 이름을 업데이트하시겠습니까?";
+"ChangingUserWarning" = "지정된 자격 증명 이외의 자격 증명을 사용하여 이 앱에 로그인하면 예상치 못한 동작이 발생할 수 있습니다.";
+"LastAuthenticationAttemptWipeWarning"="마지막 시도입니다. 이번에 로그인을 실패하면 애플리케이션 데이터가 초기화됩니다.";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "TouchID 사용";
+"UseFaceID" = "FaceID 사용";
+
+"AuthenticateForAccess" = "액세스 인증";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "장치의 지문 목록이 변경되었습니다. 보안을 위해 암호를 다시 입력하여 TouchID 사용을 재활성화하십시오.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "장치의 승인된 FaceID가 변경되었습니다. 보안을 위해 암호를 다시 입력하여 FaceID 사용을 재활성화하십시오.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "장치의 지문 목록이 변경되었습니다. 보안을 위해 자격 증명을 다시 입력하여 TouchID 사용을 재활성화하십시오.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "장치의 승인된 FaceID가 변경되었습니다. 보안을 위해 자격 증명을 다시 입력하여 FaceID 사용을 재활성화하십시오.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "TouchID로 인증하는 도중 일부 오류가 발생했습니다. TouchID를 통해 다시 활성화하려면 암호를 입력하십시오.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "FaceID로 인증하는 도중 일부 오류가 발생했습니다. FaceID를 통해 다시 활성화하려면 암호를 입력하십시오.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "TouchID로 인증하는 도중 일부 오류가 발생했습니다. TouchID를 통해 다시 활성화하려면 자격 증명을 입력하십시오.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "FaceID로 인증하는 도중 일부 오류가 발생했습니다. FaceID를 통해 다시 활성화하려면 자격 증명을 입력하십시오.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "탈옥으로 인해 장치가 손상되었습니다. 또한 네트워크 연결 상태로 인해 애플리케이션에 액세스할 수 없습니다.";
+
+"AccessRevokedTitle" = "앱 액세스 취소";
+"AccessDeniedTitle" = "앱 액세스 거부";
+"YourDeviceIsNotCompliantMessage" = "장치가 IT 관리자가 설정한 규정 준수 표준을 충족하지 못합니다.";
+"DeviceIsCompliantMessage" = "장치 규정 준수함";
+"PoliciesViolated" = "정책 위반:";
+"PleaseContactYourITAdmitistator" = "IT 관리자에게 문의하십시오.";
+"YourEnterpriseDataWillBeWiped" = "모든 엔터프라이즈 애플리케이션 데이터가 지워졌습니다.";
+"NonComplianceReasonJailbroken" = "장치가 손상되었습니다(탈옥).";
+"NonComplianceReasonAppVersion" ="지원되지 않는 앱 버전입니다.";
+"NonComplianceReasonOSVersion" = "지원되지 않는 OS 버전입니다.";
+"OSVersionCompliance" = "iOS 버전이 호환됩니다.";
+"AppVersionCompliance" = "애플리케이션 버전이 호환됩니다.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "장치가 이 AirWatch 사용자 계정으로 등록되어 있지 않습니다.";
+"NotMDMEnrolledErrorMessage" = "사용자가 MDM 등록이 필요한 환경에 로그인하려고 합니다. 관리자에게 문의하십시오.";
+"UDIDiOS7CompatibiltiyError" = "장치는 이 환경과 호환되지 않습니다. 도움이 필요하신 경우 시스템 관리자에게 문의하십시오. 오류 코드 %d";
+"EnvironmentRequiresAgentOrWS1" = "이 환경에서는 AirWatch Agent 또는 Workspace ONE을 사용하여 로그인해야 합니다.";
+"NeedToUpdateYourEnvironmentInformation" = "이 애플리케이션의 등록된 환경에 더 이상 등록되어 있지 않은 것 같습니다. 지금 환경 정보 업데이트를 시도합니다.";
+"RetryToFetchConfigurationInformation" = "구성 정보를 검색할 수 없습니다. 다시 시도하려면 계속을 누르십시오.";
+"UnableToDetermineOldPasscode" = "이전 암호를 확인할 수 없습니다. 데이터를 다시 가져오거나 SSP에서 완전히 재설정하려면 암호를 입력해야 합니다.";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "잘못된 토큰을 제공했습니다.";
+"AuthorizationToken" ="인증 토큰";
+"Token" = "토큰";
+"UseToken" = "토큰 사용";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK가 자동 검색에서 인증서를 가져오는 중 공개 키 인증 실패가 발생했습니다.";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK가 장치 서비스와 통신하는 중 공개 키 인증 실패가 발생했습니다.";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "데이터 샘플 전송 실패";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "충전 완료";
+"UIDeviceBatteryStateChargingMessage" = "충전 중";
+"UIDeviceBatteryStateUnpluggedMessage" = "플러그 안 됨";
+"NeedCameraPermission" = "이 애플리케이션에 카메라 액세스 권한이 없습니다. 액세스를 허용하려면 설정을 탭하고 카메라를 켜십시오.";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "관리자가 이 문서를 선택한 앱에서 열 수 있도록 허용하지 않습니다.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "%@ 작업을 수행하도록 허용된 애플리케이션이 장치에 설치되어 있지 않습니다.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "연결 실패(상태 코드 %d)";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "암호";
+"EnterPasscodeError" = "새 암호를 입력하십시오.";
+"MaximumPasscodeAgeHasExpired" = "현재 암호가 만료되었습니다. 새 암호를 생성하십시오.";
+"AttemptsLeftMessage" = "%d번의 시도가 남았습니다.";
+"PasscodeHasChangedEnterNewPasscode" = "암호가 이미 변경되었는데도 여전히 이전 암호를 사용하고 있습니다. 올바른 새 암호를 입력하십시오.";
+
+"PasscodesMustMatch" = "암호가 일치해야 합니다";
+"CreatePasscode" = "암호 생성";
+"CreateNewPasscode" = "새 암호 생성";
+"ConfirmPasscode"         = "암호 확인";
+"OnePasscodeForWS1Apps" = "한 개의 암호로 모든 Workspace ONE 애플리케이션을 사용할 수 있습니다.";
+"EnterSharedPasscode" = "공유 암호 입력";
+"CreateSharedPasscode" = "공유 암호 생성";
+"ForgotPasscode"          = "암호를 잊어버리셨나요?";
+"PasscodeDidntMatch"      = "암호가 일치하지 않습니다. 다시 입력하십시오.";
+"PasscodeRestriction"     = "암호 제한";
+"ForgotPasscodeNotAvailable" = "관리자가 구성한 작업 모드에서는 암호 찾기를 사용할 수 없습니다. 암호를 재설정하려면 다시 등록하십시오.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "암호가 제한을 준수하지 않습니다.";
+"PasscodeRequirementChanged" = "암호 요건이 변경되었습니다. 새 암호를 생성하십시오.";
+
+"IncorrectPasscodeEntered" = "입력한 암호가 잘못되었습니다.";
+"MimimumPasscodeLength"   = "암호는 %d개 이상의 문자를 포함해야 합니다.";
+"MimimumComplexCharacters"= "암호는 %d개 이상의 복합 문자를 포함해야 합니다.";
+"MinimumNumericPasscodeLengthInstruction" = "암호는 %d개 이상의 숫자를 포함해야 합니다.";
+"MaximumPasscodeLength"   = "암호는 %d자를 초과해서는 안 됩니다.";
+"MaximumNumericPasscodeLengthInstruction" = "암호는 %d개 이상의 숫자를 초과해서는 안 됩니다.";
+"NonMatchingPasscodeHistoryInstruction" = "암호는 최근에 사용한 %d개의 암호와 달라야 합니다.";
+"CannotBeSimpleNumericPasscodeInstrution" = "암호는 반복/오름차순/내림차순 형식이어서는 안 됩니다.";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "암호는 반복/오름차순/내림차순 문자를 포함하지 않아야 합니다.";
+"MinimumComplexSymbolsRequiredInstruction" = " 암호는 %d개 이상의 기호를 포함해야 합니다.";
+"AlphanumericNumberAndCharactersRequirement" = "암호는 최소 숫자 1개와 문자 1개를 포함해야 합니다.";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "프록시 구성이 없습니다.";
+"FailedToGetPACscript" = "PAC 스크립트 가져오기를 실패했습니다.";
+"SetAutoConfigURLProperty" = "자동 구성 URL 속성을 설정하십시오.";
+"AutoConfigURLPropertyIsNotSet" = "자동 구성 URL 속성이 설정되지 않았습니다.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "지정한 자동 구성 URL에 유효한 스크립트가 있는지 확인하십시오.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "자동 구성 URL에서 검색한 데이터의 암호 해독을 실패했습니다.";
+"FailedToRetrievedAutoConfigUrlData" = "자동 구성 URL에서 데이터 검색을 실패했습니다.";
+"MakeSurePACURLisValid" = "PAC URL이 유효한지 확인하십시오.";
+"ErrorAlertProxy" = "MAG를 구성하는데 문제가 있습니다. MAG 설정을 확인하십시오.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "제공한 서버 URL이 잘못되었습니다. 다시 시도하십시오.";
+"UnknownServerErrorMessage" ="알 수 없는 서버 오류가 발생했습니다. 관리자에게 문의하십시오.";
+"EndpointUnavailable" = "이 요청은 현재 콘솔 버전에서 사용할 수 없습니다.";
+"ConnectionLostError" = "서버 연결이 끊어졌습니다.\n나중에 다시 시도하십시오.";
+
+"GroupID" = "그룹 ID";
+"ServerURL" = "서버 URL";
+
+"ServerURLConnectionError" = "서버에 연결하는 중 오류가 발생했습니다. 네트워크 연결 상태를 확인하거나 시스템 관리자에게 문의하십시오.";
+"EmptyServerDetailsErrorMessage" = "계속하려면 유효한 서버 URL과 그룹 ID를 입력하십시오.";
+"PendingUnenrollmentReportConnectivityError" = "계속하기 전에 장치가 네트워크에 연결되어 있는지 확인하십시오.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "애플리케이션이 \”SDK 중지\” 요청으로 인해 초기화를 중지했습니다.";
+"RegisteringApplicationBlocked" = "콘솔에서 이 장치의 사용 권한을 애플리케이션에 부여하지 않았습니다.";
+"EnrollmentInformationSetup" = "등록 상태 검색을 완료할 수 없습니다.";
+"EmptyProfiles" = "SDK 프로필이 검색되지 않았으며 저장된 프로필이 없습니다.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "지금은 통합 인증 인증서를 검색할 수 없습니다.";
+"ApplicationIdentityNotSet" = "사용자 신원 검증에 실패했습니다.";
+"FailedToFetchPinningCertificate" = "지금은 SSL 고정 인증서를 검색할 수 없습니다.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "지금은 애플리케이션에 대한 환경 정보를 검색할 수 없습니다.";
+"ApplicationConfiguredIncorrectly" = "애플리케이션이 올바르게 구성되지 않았습니다. 이 애플리케이션의 콜백 체계가 SDK로 적절하게 설정되어 있지 않습니다.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "알 수 없는 오류가 발생했습니다. 관리자에게 문의하십시오.";
+"CannotUserSettingsErrorReAuthenticate"     = "MDM 서버가 제공하는 설정을 사용할 수 없습니다. 사용자 이름 및 암호를 입력하여 로그인하십시오.";
+"ErrorCode" = "오류 코드:";
+"AnErrorOccured" = "오류 발생";
+"ContactYourAdministrator" = "자세한 내용은 IT 관리자에게 문의하십시오.";
+"PleaseContactYourAdminstrator" = "관리자에게 문의하십시오.";
+"CannotUpdateCredentialsWhileLocked" = "데이터 저장소의 잠금을 해제해야만 자격 증명을 업데이트할 수 있습니다.";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "복사된 콘텐츠가 %@ 애플리케이션 내에서만 액세스 가능하도록 관리자에 의해 제한되었습니다.";
+"CopyInRestriction" = "관리되지 않는 소스에서 붙여넣기는 관리자에 의해 허용되지 않습니다.";
+"TamperedPasteboardContents" = "임시 보드 컨텐츠가 손상된 것 같습니다.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "설정";
+"Success" = "성공";
+"ThatWorks"= "충분합니다!";
+"ThatsAMatch" = "일치합니다!";
+"managed" = "관리됨";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "알 수 없음";
+"Ok" = "확인";
+"Retry" = "재시도";
+"Wipe" = "초기화";
+"Warning" = "경고";
+"ErrorTitle" = "오류";
+"UnknownError" = "알 수 없는 오류";
+"Notice" = "알림";
+"TryAgain"= "다시 시도";
+"EnableCameraAccess" = "카메라 액세스 활성화";
+"ScanQRCodeTitle" = "양식을 채우려면 QR 코드를 스캔하십시오.";
+"Copy" = "복사";
+"CopyLink" = "링크 복사";
+"CopyImage" = "이미지 복사";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "취소";
+"Change"            = "변경";
+"Confirm"="확인";
+"Update" = "업데이트";
+"Cancel"            = "취소";
+"Login"             = "로그인";
+"OK"                = "확인";
+"Continue"                = "계속";
+"Create" = "생성";
+"ManualSetup" = "수동 설정";
+"Accept"="동의";
+"DeclineTitle" = "동의 안 함";
+"Back" = "뒤로";
+"Next" = "다음";
+"SignIn" = "로그인";
+"UseUserNamePassword" = "사용자 이름-비밀번호 사용";
+"ScanQRCode" = "QR 코드 스캔";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "사용 약관";
+"TermsAndConditionsAllCaps" = "사용 약관";
+"TermsAndConditions" = "사용 약관";
+"EmailAddress" = "이메일 주소";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "오프라인 액세스는 제한됩니다. 리소스에 액세스하려면 인터넷에 연결하십시오.";
+"OfflineAccessDurationExceeded" = "오프라인 액세스 한도에 도달했습니다. 리소스에 액세스하려면 인터넷에 연결하십시오.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "장치 체크아웃 실패";
+"NetworkConnectionLost" = "네트워크 연결 끊김";
+"ConnectionUnavailable" = "사용할 수 있는 연결 없음";
+"DeviceNotEnrolled" = "장치가 등록되어 있지 않음";
+"DeviceNonCompliant" = "장치가 규정 준수하지 않음";
+"InvalidLocationGroup"  = "잘못된 조직 그룹";
+"DeviceAlreadyCheckedIn" = "장치가 체크인되어 있음";
+"DeviceAlreadyCheckedOut" = "장치가 체크아웃되어 있음";
+"InvalidCheckOutRequest" = "잘못된 체크아웃 요청";
+"FailedToSignRequest" = "요청 서명 실패";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "장치에 MAG 인증 인증서가 저장되어 있지 않거나 잘못되었습니다.";
+"ProxyAuthenticationRequired" = "프록시 인증 필수";
+"InvalidAuthenticationForProxy" = "프록시에 제공한 인증이 잘못되었습니다.";
+"CheckAuthenticationCredentialsAndTryAgain" = "인증 자격 증명을 확인한 후 다시 시도하십시오.";
+"MissingDeviceRootCertificate" = "장치 루트 인증서가 없음";
+"AnActivationCode(LG)WasNeverSaved" = "활성화 코드(LG)가 저장되지 않았습니다.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "AWCompliance 시작하기 실패";
+"InvalidCredentialsErrorTitle" = "잘못된 자격 증명입니다. 로그인 정보와 그룹 ID를 확인한 후 다시 시도하십시오.";
+"InvalidActivationCodeErrorMessage" = "입력한 그룹 ID가 잘못되었습니다. 다시 시도하십시오.";
+"DeviceNotFoundErrorMessage" = "이 AirWatch 인스턴스에서 장치를 찾을 수 없습니다. 이 애플리케이션을 사용하려면 먼저 등록하십시오.";
+"DeviceNotEnrolledErrorMessage" = "장치가 이 AirWatch 인스턴스에 등록되어 있지 않습니다. 이 애플리케이션을 사용하려면 먼저 등록하십시오.";
+"AccountLockedErrorMessage"                 = "계정이 LDAP/AirWatch에서 잠겼습니다. 관리자에게 문의하십시오.";
+"InActiveErrorMessage"                      = "AirWatch 콘솔에서 계정이 비활성화되었습니다. 관리자에게 문의하십시오.";
+"InvalidTokenErrorMessage"                  = "사용자가 만료된 토큰/존재하지 않는 토큰으로 로그인하려고 합니다. 관리자에게 문의하십시오.";
+"SyncClientNotEnabledErrorMessage"          = "동기화 클라이언트가 활성화되지 않았습니다. 관리자에게 문의하십시오.";
+"PersonalContentNotEnabledErrorMessage"     = "개인 컨텐츠가 활성화되지 않았습니다. 관리자에게 문의하십시오.";
+"AwchatNotEnabled"                          = "AWChat가 활성화되지 않았습니다. 관리자에게 문의하십시오.";
+"NoDeviceLogsToSend" = "전송할 장치 로그가 없습니다.";
+"EmptyLogFile" ="로그 파일이 비어 있습니다.";
+"NeedsWiFiToSendLogData" ="AWConsole에서 로그 데이터를 전송하려면 Wi-Fi 연결이 필요합니다.";
+"AWRestrictionsFailedToStart" = "AWRestrictions 시작하기 실패";
+"FailedToGetToken"  = "장치를 체크아웃할 수 없습니다. 다시 시도하거나 관리자에게 문의하십시오.";
+"FailedToInvalidateToken" = "토큰 무효화를 실패했습니다.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "PIN과 SecureID 토큰을 입력하십시오.";
+"AnswerPlaceHolderNewPin" = "PIN";
+"ChallengeServerError" = "서버 오류입니다. 관리자에게 문의하십시오.";
+"ChallengeLocked" = "계정이 잠겼습니다. 관리자에게 문의하십시오.";
+"ChallengeNextTokenAuth" = "PIN을 입력한 후 SecureID 토큰을 입력하십시오.";
+"ChallengeNextTokenAuthAfterNewPinSet" = "PIN과 SecureID 토큰을 입력하십시오.";
+"ChallengeNewPinFromSystem" = "다음으로 PIN을 입력하십시오.";
+"ChallengeNewPinFromUser" = "새로운 PIN을 입력하십시오.";
+"ChallengeTokenAuth" = "PIN과 SecureID 토큰을 입력하십시오. PIN을 아직 설정하지 않은 경우 SecureID 토큰만 입력하십시오.";

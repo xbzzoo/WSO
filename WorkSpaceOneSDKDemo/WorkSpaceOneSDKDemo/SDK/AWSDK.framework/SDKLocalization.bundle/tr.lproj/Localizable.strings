@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "Sağlanan kimlik bilgileri doğrulanamadı. Lütfen tekrar deneyin.";
+"AuthenticateToResetPasscode" = "Şifrenizi sıfırlamak için önce kimliğinizi doğrulamanız gerekir";
+"Username"="Kullanıcı adı";
+"Password" = "Parola";
+"UpdateUsernameWarningMessageTitle" = "Kullanıcı adını güncellemek istediğinize emin misiniz?";
+"ChangingUserWarning" = "Belirtilenden farklı kimlik bilgileri kullanarak bu uygulamada oturum açmak beklenmeyen davranışlarla sonuçlanabilir.";
+"LastAuthenticationAttemptWipeWarning"="Bu son denemeniz. Uygulama verileri başarısız bir tane daha denemeden sonra silinecektir.";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "TouchID'yi kullan";
+"UseFaceID" = "FaceID'yi kullan";
+
+"AuthenticateForAccess" = "Erişim İçin Kimlik Doğrula";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "Aygıttaki parmak izlerinin listesi değişmiş gibi görünüyor. TouchID’yi tekrar kullanmayı etkinleştirmek için lütfen güvenlik amacıyla şifrenizi tekrar girin.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "Bu aygıttaki onaylı FaceID değişmiş gibi görünüyor. FaceID'yi tekrar kullanmayı etkinleştirmek için lütfen güvenlik amacıyla şifrenizi tekrar girin.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "Aygıttaki parmak izlerinin listesi değişmiş gibi görünüyor. TouchID’yi tekrar kullanmayı etkinleştirmek için lütfen güvenlik amacıyla kimlik bilgilerinizi tekrar girin.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "Bu aygıttaki onaylı FaceID değişmiş gibi görünüyor. FaceID'yi tekrar kullanmayı etkinleştirmek için lütfen güvenlik amacıyla kimlik bilgilerinizi tekrar girin.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "TouchID ile kimlik doğrulama sırasında bir hata oluştu. TouchID'yi tekrar kullanmayı etkinleştirmek için lütfen şifrenizi tekrar girin.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "FaceID ile kimlik doğrulama sırasında bir hata oluştu. FaceID'yi tekrar kullanmayı etkinleştirmek için lütfen şifrenizi tekrar girin.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "TouchID ile kimlik doğrulama sırasında bir hata oluştu. TouchID'yi tekrar kullanmayı etkinleştirmek için lütfen kimlik bilgilerinizi tekrar girin.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "FaceID ile kimlik doğrulama sırasında bir hata oluştu. FaceID'yi tekrar kullanmayı etkinleştirmek için lütfen kimlik bilgilerinizi tekrar girin.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Aygıtınız güvenilirliğini kaybetmiş (jailbroken). Ağ bağlantısı nedeniyle, uygulamanıza erişim sağlayamazsınız.";
+
+"AccessRevokedTitle" = "Uygulamaya erişim iptal edildi";
+"AccessDeniedTitle" = "Uygulamaya erişim reddedildi";
+"YourDeviceIsNotCompliantMessage" = "Aygıtınız, IT yöneticiniz tarafından belirlenen uyumluluk standartlarını karşılamıyor.";
+"DeviceIsCompliantMessage" = "Aygıt uyumludur";
+"PoliciesViolated" = "İlkeler İhlal Edildi:";
+"PleaseContactYourITAdmitistator" = "Lütfen IT yöneticinizle iletişime geçin.";
+"YourEnterpriseDataWillBeWiped" = "Tüm kurumsal uygulama verileri silindi.";
+"NonComplianceReasonJailbroken" = "Aygıtınız güvenilirliğini kaybetmiş (jailbroken).";
+"NonComplianceReasonAppVersion" ="Desteklenmeyen uygulama sürümü.";
+"NonComplianceReasonOSVersion" = "Desteklenmeyen İS sürümü.";
+"OSVersionCompliance" = "iOS sürümü uyumludur.";
+"AppVersionCompliance" = "Uygulama sürümü uyumludur.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "Aygıt bu AirWatch kullanıcı hesabı ile kayıtlı değil.";
+"NotMDMEnrolledErrorMessage" = "MDM kaydının gerekli olduğu bir ortamda kullanıcı oturum açmaya çalışıyor. Lütfen yöneticiyle iletişime geçin.";
+"UDIDiOS7CompatibiltiyError" = "Aygıt, bu ortam ile uyumlu değil. Daha fazla yardım için lütfen sistem yöneticinizle iletişime geçin. Hata Kodu %d";
+"EnvironmentRequiresAgentOrWS1" = "Bu ortam AirWatch Agent veya Workspace ONE ile giriş yapmanızı gerektiriyor.";
+"NeedToUpdateYourEnvironmentInformation" = "Bu uygulamanın kayıtlı ortamına artık kayıtlı görünmüyorsunuz. Şimdi ortam bilgilerinizi güncellemeyi deneyeceğiz.";
+"RetryToFetchConfigurationInformation" = "Yapılandırma bilgilerini alamadık. Tekrar denemek için devam et tuşuna basın";
+"UnableToDetermineOldPasscode" = "Eski şifreniz belirlenemedi. Verilerinizi geri almak için şifrenizi girin veya SSP'den tamamen sıfırlayın";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "Geçersiz belirteç sağlandı.";
+"AuthorizationToken" ="Yetkilendirme Belirteci";
+"Token" = "Belirteç";
+"UseToken" = "Belirteç kullan";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK, otomatik bulmadan sertifikayı almaya çalışırken ortak anahtar kimlik doğrulama hatası alıyor.";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK, Aygıt Hizmetleri ile iletişime geçmeye çalışırken ortak anahtar kimlik doğrulama hatası alıyor.";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "Veri Örneği aktarım işleminde başarısız oldu.";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "Dolu";
+"UIDeviceBatteryStateChargingMessage" = "Şarj Ediliyor";
+"UIDeviceBatteryStateUnpluggedMessage" = "Bağlantısız";
+"NeedCameraPermission" = "Bu uygulamanın kameranıza erişimi yok. Erişimi etkinleştirmek için Ayarlar'a dokunun ve Kamera'yı açın.";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "Yönetici bu uygulamanın seçilen uygulamada açılmasına izin vermiyor.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "%@ eylemini gerçekleştirmek için aygıtınızda izin verilen yüklü uygulamanız yoktur.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "%d durum kodu ile bağlantı başarısız oldu.";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "Şifre";
+"EnterPasscodeError" = "Lütfen yeni şifreyi girin";
+"MaximumPasscodeAgeHasExpired" = "Geçerli şifrenizin kullanım süresi doldu. Lütfen yeni bir şifre oluşturun.";
+"AttemptsLeftMessage" = "Şu kadar deneme hakkınız kaldı: %d";
+"PasscodeHasChangedEnterNewPasscode" = "Parolanız zaten değiştirilmiş ama siz eskisini kullanıyorsunuz. Lütfen yeni ve doğru parolanızı girin";
+
+"PasscodesMustMatch" = "Şifreler eşleşmeli";
+"CreatePasscode" = "Şifre oluştur";
+"CreateNewPasscode" = "Yeni şifre oluştur";
+"ConfirmPasscode"         = "Şifreyi Onayla";
+"OnePasscodeForWS1Apps" = "Tüm Workspace ONE Uygulamalarınız için tek bir şifre.";
+"EnterSharedPasscode" = "Paylaşılan şifreyi gir";
+"CreateSharedPasscode" = "Paylaşılan şifre oluştur";
+"ForgotPasscode"          = "Şifreyi unuttunuz mu?";
+"PasscodeDidntMatch"      = "Şifreler eşleşmiyor, tekrar girin";
+"PasscodeRestriction"     = "Şifre Kısıtlaması";
+"ForgotPasscodeNotAvailable" = "Şifreyi unuttum seçeneği, yöneticiniz tarafından yapılandırılan çalışma modunda kullanılamaz. Şifrenizi sıfırlamanız gerekirse lütfen yeniden kaydolun.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "Şifreniz kısıtlamalarla uyumlu değil";
+"PasscodeRequirementChanged" = "Şifre gereklilikleri değişti, lütfen yeni bir şifre oluşturun.";
+
+"IncorrectPasscodeEntered" = "Girilen şifre yanlış";
+"MimimumPasscodeLength"   = "Şifreniz en az %d karakter içermeli";
+"MimimumComplexCharacters"= "Şifreniz; en az %d karmaşık karakter içermeli";
+"MinimumNumericPasscodeLengthInstruction" = "Şifreniz en az (%d) sayı içermelidir";
+"MaximumPasscodeLength"   = "Şifreniz en fazla %d karakter uzunluğunda olmalıdır.";
+"MaximumNumericPasscodeLengthInstruction" = "Şifrenizde en fazla %d rakam olmalıdır";
+"NonMatchingPasscodeHistoryInstruction" = "Şifreniz en son(%d) şifre ile aynı olmamalıdır.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Şifreniz tekrarlayan/azalan/artan olmamalıdır";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Şifreniz tekrarlayan/azalan/artan karakterler içermemelidir.";
+"MinimumComplexSymbolsRequiredInstruction" = " Şifreniz en az (%d) sembol içermelidir";
+"AlphanumericNumberAndCharactersRequirement" = "Şifreniz en az 1 rakam ve 1 karakter içermelidir";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "Proxy yapılandırması eksik";
+"FailedToGetPACscript" = "PAC komut dosyası alımı başarısız oldu.";
+"SetAutoConfigURLProperty" = "Otomatik yapılandırma URL özelliğini ayarlayın.";
+"AutoConfigURLPropertyIsNotSet" = "Otomatik yapılandırma URL özelliği ayarlanmamış.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Belirtilen otomatik yapılandırma URL'sinde geçerli bir komut bulunduğundan emin olun.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Otomatik yapılandırma URL'sinden alınan verileri çözme başarısız oldu.";
+"FailedToRetrievedAutoConfigUrlData" = "Otomatik yapılandırma URL'sinden veri alımı başarısız oldu.";
+"MakeSurePACURLisValid" = "PAC URL'nin geçerli olduğundan emin olun.";
+"ErrorAlertProxy" = "MAG'i yapılandırma ile ilgili bazı sorunlar var. Lütfen MAG ayarınızı kontrol edin.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "Verilen sunucu URL'si geçersizdir. Lütfen tekrar deneyin.";
+"UnknownServerErrorMessage" ="Bilinmeyen bir hata meydana geldi. Lütfen yöneticinizle iletişime geçin.";
+"EndpointUnavailable" = "Bu istek güncel konsol sürümünüzde kullanılamıyor.";
+"ConnectionLostError" = "Sunucu ile bağlantı kaybedildi.\nLütfen daha sonra tekrar deneyin.";
+
+"GroupID" = "Grup Kimliği";
+"ServerURL" = "Sunucu URL'si";
+
+"ServerURLConnectionError" = "Sunucuya bağlanırken hata oluştu. Lütfen ağ bağlantınızı kontrol edin ya da sistem yöneticinizle iletişime geçin.";
+"EmptyServerDetailsErrorMessage" = "Devam etmek için lütfen geçerli bir sunucu URL'si ve Grup Kimliği girin.";
+"PendingUnenrollmentReportConnectivityError" = "Devam etmek için, aygıtınızın ağa bağlı olduğundan emin olun.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "Uygulama \"SDK Durdur\" istemi nedeniyle bağlatmayı durdurdu.";
+"RegisteringApplicationBlocked" = "Uygulama bu aygıtta konsol tarafından kullanılmak üzere yetkili değil.";
+"EnrollmentInformationSetup" = "Kayıt durumu alma tamamlanamadı.";
+"EmptyProfiles" = "Hiç SDK profili alınamadı ve hiç kaydedilmiş profil yok.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Şu anda entegre kimlik doğrulama sertifikaları alınamıyor.";
+"ApplicationIdentityNotSet" = "Kullanıcının kimliği doğrulanamadı.";
+"FailedToFetchPinningCertificate" = "Şu anda SSL sabitleme sertifikaları alınamıyor.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "Şu anda uygulama için ortam bilgisi alınamıyor.";
+"ApplicationConfiguredIncorrectly" = "Uygulama düzgün olarak yapılandırılamadı. Bu uygulama için geri arama düzeni SDK ile düzgün olarak ayarlanmadı.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "Bilinmeyen bir hata oluştu. Lütfen yöneticinizle iletişime geçin.";
+"CannotUserSettingsErrorReAuthenticate"     = "MDM sunucusu tarafından sağlanan ayarlar kullanılamıyor. Lütfen giriş yapmak için kullanıcı adınızı ve parolanızı girin.";
+"ErrorCode" = "Hata kodu:";
+"AnErrorOccured" = "Bir hata oluştu.";
+"ContactYourAdministrator" = "Daha fazla bilgi için, lütfen BT yöneticiniz ile iletişime geçin.";
+"PleaseContactYourAdminstrator" = "Lütfen Sistem Yöneticinizle İletişime Geçin";
+"CannotUpdateCredentialsWhileLocked" = "Veri deposunun kilidi açılıncaya dek kimlik bilgileri güncellenemez";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "Yöneticiniz kopyalanan içeriği yalnızca %@ uygulamalarında erişilebilir olacak şekilde kısıtladı.";
+"CopyInRestriction" = "Yöneticiniz yönetilmeyen kaynaklardan yapıştırmaya izin vermedi.";
+"TamperedPasteboardContents" = "Yan kullanım alanı içeriklerinizde izinsiz değişiklik yapılmış gibi görünüyor.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "Ayarlar";
+"Success" = "Başarılı";
+"ThatWorks"= "Bu İşe Yarıyor!";
+"ThatsAMatch" = "Eşleşti!";
+"managed" = "Yönetilen";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "Bilinmeyen";
+"Ok" = "Tamam";
+"Retry" = "Tekrar Dene";
+"Wipe" = "Süpür";
+"Warning" = "Uyarı";
+"ErrorTitle" = "Hata";
+"UnknownError" = "Bilinmeyen Hata";
+"Notice" = "Bildirim";
+"TryAgain"= "Tekrar Deneyin";
+"EnableCameraAccess" = "Kamera Erişimine İzin Ver";
+"ScanQRCodeTitle" = "Formu doldurmak için QR kodunu tarayın.";
+"Copy" = "Kopyala";
+"CopyLink" = "Bağlantıyı Kopyala";
+"CopyImage" = "Görüntüyü Kopyala";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "Kapat";
+"Change"            = "Değiştir";
+"Confirm"="Onayla";
+"Update" = "Güncelle";
+"Cancel"            = "İptal Et";
+"Login"             = "Oturum Aç";
+"OK"                = "Tamam";
+"Continue"                = "Devam Et";
+"Create" = "Oluştur";
+"ManualSetup" = "Manüel kurulum";
+"Accept"="Kabul Et";
+"DeclineTitle" = "Reddet";
+"Back" = "Geri";
+"Next" = "Sonraki";
+"SignIn" = "Giriş Yap";
+"UseUserNamePassword" = "Kullanıcı adı parolası kullan";
+"ScanQRCode" = "QR kodunu tara";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "Kullanım Şartları";
+"TermsAndConditionsAllCaps" = "HÜKÜM VE KOŞULLAR";
+"TermsAndConditions" = "Hüküm ve Koşullar";
+"EmailAddress" = "E-posta Adresi";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "Çevrimdışı erişim kısıtlandı. Kaynaklara erişim sağlamak için lütfen internete bağlanın.";
+"OfflineAccessDurationExceeded" = "Çevrimdışı erişim sınırına ulaştınız. Kaynaklara erişim sağlamak için lütfen internete bağlanın. ";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "Aygıtı Teslim Alma İşlemi Başarısız Oldu.";
+"NetworkConnectionLost" = "Ağ Bağlantısı Kaybedildi.";
+"ConnectionUnavailable" = "Bağlantı Kullanılamıyor.";
+"DeviceNotEnrolled" = "Aygıt kayıtlı değil";
+"DeviceNonCompliant" = "Aygıt uyumlu değil";
+"InvalidLocationGroup"  = "Organizasyon Grubu geçerli değil";
+"DeviceAlreadyCheckedIn" = "Aygıt zaten teslim edilmiş.";
+"DeviceAlreadyCheckedOut" = "Aygıt zaten teslim alınmış.";
+"InvalidCheckOutRequest" = "Geçersiz teslim alma talebi";
+"FailedToSignRequest" = "Talebi imzalama başarısız oldu.";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "Aygıtta saklanan bir MAG kimlik doğrulama sertifikası bulunmuyor veya sertifika geçersiz.";
+"ProxyAuthenticationRequired" = "Proxy Kimlik Doğrulaması Gerekiyor.";
+"InvalidAuthenticationForProxy" = "Proxy için verilen kimlik doğrulaması geçersiz.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Kimlik doğrulama bilgilerinizi kontrol edin ve tekrar deneyin.";
+"MissingDeviceRootCertificate" = "Aygıt Kök Sertifikası Eksik";
+"AnActivationCode(LG)WasNeverSaved" = "Bir Etkinleştirme Kodu (LG) hiçbir zaman kaydedilmedi.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "AW Uyumluluğu başlatılamadı.";
+"InvalidCredentialsErrorTitle" = "Geçersiz kimlik bilgileri. Lütfen oturum açma bilgileriniz ve grup kimliğinizi kontrol edin ve tekrar deneyin.";
+"InvalidActivationCodeErrorMessage" = "Verilen grup kimliği geçersizdir. Lütfen tekrar deneyin.";
+"DeviceNotFoundErrorMessage" = "Aygıt bu AirWatch sunucusunda bulunamadı. Bu uygulamayı kullanmayı denemeden önce lütfen kayıt işlemini gerçekleştirin.";
+"DeviceNotEnrolledErrorMessage" = "Aygıt bu AirWatch sunucusunda kayıtlı değil. Bu uygulamayı kullanmayı denemeden önce lütfen kayıt işlemini gerçekleştirin.";
+"AccountLockedErrorMessage"                 = "Hesabınız LDAP/AirWatch'ta kilitlendi. Lütfen yöneticiyle iletişime geçin.";
+"InActiveErrorMessage"                      = "Hesabınız AirWatch Konsolu'nda devre dışı bırakıldı. Lütfen yöneticiyle iletişime geçin.";
+"InvalidTokenErrorMessage"                  = "Kullanıcı süresi dolmuş bir belirteç ya da olmayan bir belirteç ile oturum açmaya çalışıyor. Lütfen yöneticiyle iletişime geçin.";
+"SyncClientNotEnabledErrorMessage"          = "İstemci eşitleme etkin değil. Lütfen yöneticiyle iletişime geçin.";
+"PersonalContentNotEnabledErrorMessage"     = "Kişisel içerik etkin değil. Lütfen yöneticiyle iletişime geçin.";
+"AwchatNotEnabled"                          = "AWChat etkin değil. Lütfen yöneticiyle iletişime geçin.";
+"NoDeviceLogsToSend" = "Gönderilecek aygıt günlüğü yok";
+"EmptyLogFile" ="Günlük dosyası boş";
+"NeedsWiFiToSendLogData" ="AW Konsolu Wi-Fi bağlantısının günlük verisi göndermesini gerektiriyor.";
+"AWRestrictionsFailedToStart" = "AW Kısıtlamaları başlatılamadı.";
+"FailedToGetToken"  = "Aygıtı teslim alınamıyor. Lütfen daha sonra tekrar deneyin ya da yöneticiyle iletişime geçin.";
+"FailedToInvalidateToken" = "Belirteci geçersiz kılma başarısız oldu.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Lütfen PIN'inizi ve SecurID belirtecinizi girin.";
+"AnswerPlaceHolderNewPin" = "PIN";
+"ChallengeServerError" = "Sunucu Hatası. Lütfen yöneticiniz ile iletişime geçin.";
+"ChallengeLocked" = "Hesabınız kilitlenmiş. Lütfen yöneticiniz ile iletişime geçin.";
+"ChallengeNextTokenAuth" = "Lütfen PIN'inizi ve bir sonraki SecurID belirtecinizi girin";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Lütfen PIN'inizi ve SecurID belirtecinizi girin";
+"ChallengeNewPinFromSystem" = "PIN'i şu şekilde girin:";
+"ChallengeNewPinFromUser" = "Yeni PIN girin";
+"ChallengeTokenAuth" = "Lütfen PIN'inizi ve SecurID belirtecinizi girin. PIN'inizi ayarlamadıysanız, sadece SecurID belirtecinizi girin.";

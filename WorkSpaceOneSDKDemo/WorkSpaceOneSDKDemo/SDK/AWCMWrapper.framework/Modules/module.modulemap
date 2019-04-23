@@ -1,0 +1,6 @@
+framework module AWCMWrapper {
+  umbrella header "AWCMWrapper.h"
+
+  export *
+  module * { export * }
+}

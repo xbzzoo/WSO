@@ -1,0 +1,11 @@
+framework module AWSDK {
+  umbrella header "AWSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AWSDK.Swift {
+    header "AWSDK-Swift.h"
+    requires objc
+}

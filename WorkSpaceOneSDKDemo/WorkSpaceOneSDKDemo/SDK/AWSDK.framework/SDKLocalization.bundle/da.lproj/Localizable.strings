@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "Angivne legitimationsoplysninger kunne ikke valideres. Prøv venligst igen.";
+"AuthenticateToResetPasscode" = "Du skal godkende først for at nulstille din adgangskode";
+"Username"="Brugernavn";
+"Password" = "Adgangskode";
+"UpdateUsernameWarningMessageTitle" = "Er du sikker på, at du vil opdatere brugernavnet?";
+"ChangingUserWarning" = "Hvis du logger på denne app vha. andre legitimationsoplysninger end de angivne, kan det resultere i uventet adfærd.";
+"LastAuthenticationAttemptWipeWarning"="Dette er dit sidste forsøg. App-data vil blive slettet efter et mere fejlslåetendnu et mislykket forsøg";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "Brug Touch ID";
+"UseFaceID" = "Brug Face ID";
+
+"AuthenticateForAccess" = "Godkend for adgang";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "Listen over fingeraftryk på enheden er tilsyneladende blevet ændret. Af sikkerhedsårsager, så skalbedes du indtaste din adgangskode for at kunne anvende TouchID igen.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "Det godkendte FaceID på denne enhed er tilsyneladende blevet ændret. Af sikkerhedsårsager skal du indtaste din adgangskode for at kunne anvende FaceID igen.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "Listen over fingeraftryk på enheden er tilsyneladende blevet ændret. Af sikkerhedsårsager bedes, så skal du indtaste dine legitimationsoplysninger for at kunne anvende TouchID igen.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "Det godkendte FaceID på denne enhed er tilsyneladende blevet ændret. Af sikkerhedsårsager skal du indtaste dine legitimationsoplysninger for at kunne anvende FaceID igen.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "Der opstod en fejl under godkendelse med TouchID. Indtast din adgangskode for at kunne anvende TouchID igen.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "Der opstod en fejl under godkendelse med FaceID. Indtast din adgangskode for at kunne anvende FaceID igen.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "Der opstod en fejl under godkendelse med TouchID. Indtast dine legitimationsoplysninger igen for at kunne anvende TouchID igen.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "Der opstod en fejl under godkendelse med FaceID. Indtast din legitimationsoplysninger igen for at kunne anvende FaceID igen.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Din enhed er kompromitteret (jailbroken). Og grundet netværksforbindelsen har du ikke adgang til din app.";
+
+"AccessRevokedTitle" = "App-adgang inddraget";
+"AccessDeniedTitle" = "App-adgang nægtet";
+"YourDeviceIsNotCompliantMessage" = "Din enhed overholder ikke de standarder, der er fastsat af din IT-administrator.";
+"DeviceIsCompliantMessage" = "Enhed er compliant";
+"PoliciesViolated" = "Politikker overtrådt:";
+"PleaseContactYourITAdmitistator" = "Kontakt din IT-administrator.";
+"YourEnterpriseDataWillBeWiped" = "Al Enterprise app-data er blevet slettet.";
+"NonComplianceReasonJailbroken" = "Din enhed er kompromitteret (jailbroken).";
+"NonComplianceReasonAppVersion" ="Ikke-understøttet app-version.";
+"NonComplianceReasonOSVersion" = "Ikke-understøttet OS-version.";
+"OSVersionCompliance" = "iOS-version er compliant.";
+"AppVersionCompliance" = "Applikationsversion er compliant.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "Enhed er ikke tilmeldt med denne AirWatch brugerkonto.";
+"NotMDMEnrolledErrorMessage" = "Bruger forsøgte at logge på et miljø hvor MDM tilmelding er påkrævet. Tjek venligst med administrator";
+"UDIDiOS7CompatibiltiyError" = "Enhed er ikke kompatibel med dette miljø. Kontakt venligst din systemadministrator for yderligere support. Fejlkode %d";
+"EnvironmentRequiresAgentOrWS1" = "Dette miljø kræver, at du logger på med enten AirWatch Agent eller Workspace ONE.";
+"NeedToUpdateYourEnvironmentInformation" = "Det ser ud til at du ikke længere er tilmeldt i det registrerede miljø for denne app. Vi vil nu forsøge at opdatere information om dit miljø";
+"RetryToFetchConfigurationInformation" = "Vi kunne ikke hente konfigurationsoplysninger. Tryk på Fortsæt for at prøve igen";
+"UnableToDetermineOldPasscode" = "Din gamle adgangskode kan ikke bestemmes. Du skal angive adgangskoden for at få dine data tilbage eller nulstille fuldstændig fra SSP";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "Ugyldigt token blev angivet.";
+"AuthorizationToken" ="Godkendelsestoken";
+"Token" = "Token";
+"UseToken" = "Anvend token";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK modtager en godkendelsesfejl for offentlig nøgle, mens den forsøger at hente certifikat fra auto-discovery";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK modtager en godkendelsesfejl for offentlig nøgle, mens den forsøger at kommunikere med enhedstjenester";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "DataSample kunne ikke overføres";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "Fuld";
+"UIDeviceBatteryStateChargingMessage" = "Oplader";
+"UIDeviceBatteryStateUnpluggedMessage" = "Ikke tilsluttet";
+"NeedCameraPermission" = "Denne app har ikke adgang til dit kamera. For at aktivere adgang, klik på Indstillinger og slå Kamera til";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "Administrator tillader ikke at dette dokument kan åbnes i den valgte app.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "Du har ikke tilladte apps installeret på din enhed for at kunne udføre %@ handlingen.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "Forbindelsen slog fejl med s. Statuskode %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "Adgangskode";
+"EnterPasscodeError" = "Indtast venligst ny adgangskode";
+"MaximumPasscodeAgeHasExpired" = "Din aktuelle adgangskode er udløbet. Opret venligst en ny adgangskode.";
+"AttemptsLeftMessage" = "Du har %d forsøg tilbage";
+"PasscodeHasChangedEnterNewPasscode" = "Din gamle adgangskode er ændret, og du bruger stadig den gamle. Angiv den nye adgangskode";
+
+"PasscodesMustMatch" = "Adgangskoder skal matche";
+"CreatePasscode" = "Opret adgangskode";
+"CreateNewPasscode" = "Opret ny adgangskode";
+"ConfirmPasscode"         = "Bekræft adgangskode";
+"OnePasscodeForWS1Apps" = "En adgangskode for alle dine Workspace ONE apps.";
+"EnterSharedPasscode" = "Indtast delt adgangskode";
+"CreateSharedPasscode" = "Opret delt adgangskode";
+"ForgotPasscode"          = "Glemt adgangskode?";
+"PasscodeDidntMatch"      = "Adgangskoder matcher ikke. Indtast venligst igen";
+"PasscodeRestriction"     = "Adgangskode begrænsning";
+"ForgotPasscodeNotAvailable" = "Glemt adgangskode er ikke tilgængelig i den valgte funktion, som er konfigureret af din administrator. Gentilmeld, hvis du har brug for at nulstille din adgangskode.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "Adgangskode overholder ikke begrænsningerne.";
+"PasscodeRequirementChanged" = "Krav til adgangskode er blevet ændret, opret venligst en ny adgangskode.";
+
+"IncorrectPasscodeEntered" = "Adgangskode er forkert";
+"MimimumPasscodeLength"   = "Adgangskode skal indeholde mindst %d tegn.";
+"MimimumComplexCharacters"= "Adgangskode skal indeholde mindst %d komplekse tegn.";
+"MinimumNumericPasscodeLengthInstruction" = "Din adgangskode bør indeholde mindst %d tal.";
+"MaximumPasscodeLength"   = "Din adgangskode må ikke være mere end %d tegn.";
+"MaximumNumericPasscodeLengthInstruction" = "Din adgangskode må ikke indeholde mere end %d tal";
+"NonMatchingPasscodeHistoryInstruction" = "Din adgangskode bør ikke matche seneste (%d) adgangskoder.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Din adgangskode bør ikke være gentagende/stigende/faldende";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Din adgangskode bør ikke indeholde gentagende/stigende/faldende tegn";
+"MinimumComplexSymbolsRequiredInstruction" = " Din adgangskode bør indeholde mindst (%d) symbol(er)";
+"AlphanumericNumberAndCharactersRequirement" = "Din adgangskode skal indeholde mindst 1 tal og 1 tegn";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "Proxykonfiguration mangler";
+"FailedToGetPACscript" = "Kunne ikke hente PAC script.";
+"SetAutoConfigURLProperty" = "Indstil autoConfigURL egenskab.";
+"AutoConfigURLPropertyIsNotSet" = "autoConfigURL egenskab er ikke indstillet.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Sørg for at der er et gyldigt script er placeret ved den specificerede auto -konfigureretde URL-adresse.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Kunne ikke afkode data hentet ved specificeretfra den auto -konfigurerede URL-adresse.";
+"FailedToRetrievedAutoConfigUrlData" = "Kunne ikke hente data fra den auto -konfigureretde URL-adresse.";
+"MakeSurePACURLisValid" = "Sørg for at PAC URL-adressen er gyldig.";
+"ErrorAlertProxy" = "Der opstod et problem under konfiguration af MAG. Tjek venligst din MAG indstilling.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "Angivneen server URL-adresse er ugyldig. Prøv igen.";
+"UnknownServerErrorMessage" ="Der opstod en ukendt serverfejl. Kontakt venligst din administrator.";
+"EndpointUnavailable" = "Denne anmodning er ikke tilgængelig i denne konsolversion.";
+"ConnectionLostError" = "Forbindelse til server blev afbrudt.\nPrøv igen senere.";
+
+"GroupID" = "Gruppe-id";
+"ServerURL" = "URL-adresse til server";
+
+"ServerURLConnectionError" = "Der opstod en fejl i forbindelsen til serveren. Tjek venligst din netværksforbindelse eller kontakt din system administrator";
+"EmptyServerDetailsErrorMessage" = "Indtast venligst en gyldig URL-adresse og gruppe-id for at fortsætte.";
+"PendingUnenrollmentReportConnectivityError" = "For at kunne fortsætte skal din enhed have forbindelse til netværket.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "App har stoppet initialisering på grund af en \"Stop SDK\" anmodning.";
+"RegisteringApplicationBlocked" = "App er ikke godkendt for anvendelse på denne enhed af konsollen.";
+"EnrollmentInformationSetup" = "Hentning af tilmeldingsstatus kunne ikke fuldføres.";
+"EmptyProfiles" = "Ingen SDK profiler kunne hentes og der er ingen gemte profiler.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Integrerede godkendelsescertifikater kunne ikke hentes på nuværende tidspunkt.";
+"ApplicationIdentityNotSet" = "Kunne ikke validere brugers identitet.";
+"FailedToFetchPinningCertificate" = "SSL fastgjorte certifikater kunne ikke hentes på nuværende tidspunkt.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "Der kan ikke hentes miljøoplysninger for appen i øjeblikket.";
+"ApplicationConfiguredIncorrectly" = "App er ikke blevet konfigureret korrekt. Tilbagekald-skemaer for denne app er ikke blevet oprettet korrekt med SDK.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "Der opstod en ukendt fejl. Kontakt venligst din administrator";
+"CannotUserSettingsErrorReAuthenticate"     = "De indstillinger, der er leveret af MDM-serveren, kan ikke bruges. Angiv dit brugernavn og din adgangskode for at logge på.";
+"ErrorCode" = "Fejlkode:";
+"AnErrorOccured" = "Der opstod en fejl";
+"ContactYourAdministrator" = "For mere information, kontakt venligst din IT-administrator";
+"PleaseContactYourAdminstrator" = "Kontakt venligst din administrator";
+"CannotUpdateCredentialsWhileLocked" = "Legitimationsoplysningerne kan først opdateres, når datalageret er låst op";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "Din administrator har begrænset det kopierede indhold, så det kun er tilgængeligt i %@ applikationer.";
+"CopyInRestriction" = "Din administrator har forbudt indsættelse fra ikke-styrede kilder.";
+"TamperedPasteboardContents" = "Dit indhold på opslagstavlen er tilsyneladende blevet ændret.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "Indstillinger";
+"Success" = "Udført";
+"ThatWorks"= "Det virker!";
+"ThatsAMatch" = "Det er et match!";
+"managed" = "Styret";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "Ukendt";
+"Ok" = "OK";
+"Retry" = "Prøv igen";
+"Wipe" = "Slet";
+"Warning" = "Advarsel";
+"ErrorTitle" = "Fejl";
+"UnknownError" = "Ukendt fejl";
+"Notice" = "Bemærk";
+"TryAgain"= "Prøv igen";
+"EnableCameraAccess" = "Aktiver kameraadgang";
+"ScanQRCodeTitle" = "Skan QR-kode for at udfylde formular";
+"Copy" = "Kopier";
+"CopyLink" = "Kopier link";
+"CopyImage" = "Kopier billede";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "Afvis";
+"Change"            = "Skift";
+"Confirm"="Bekræft";
+"Update" = "Opdater";
+"Cancel"            = "Annuller";
+"Login"             = "Log ind";
+"OK"                = "OK";
+"Continue"                = "Fortsæt";
+"Create" = "Opret";
+"ManualSetup" = "Manuel opsætning";
+"Accept"="Accepter";
+"DeclineTitle" = "Afvis";
+"Back" = "Tilbage";
+"Next" = "Næste";
+"SignIn" = "Log på";
+"UseUserNamePassword" = "Anvend brugernavn-adgangskode";
+"ScanQRCode" = "Skan QR-kode";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "Vilkår for anvendelse";
+"TermsAndConditionsAllCaps" = "VILKÅR OG BETINGELSER";
+"TermsAndConditions" = "Vilkår og betingelser";
+"EmailAddress" = "E-mail adresse";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "Offline adgang er begrænset. Opret venligst forbindelse til internettet for at få adgang til ressourcer.";
+"OfflineAccessDurationExceeded" = "Du har opnået grænsen for offline adgang. Opret venligst forbindelse til internettet for at få adgang til ressourcer.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "Tjek ud af enhed slog fejl";
+"NetworkConnectionLost" = "Netværksforbindelse afbrudt";
+"ConnectionUnavailable" = "Forbindelse er ikke tilgængelig";
+"DeviceNotEnrolled" = "Enhed er ikke tilmeldt";
+"DeviceNonCompliant" = "Enhed er ikke-compliant";
+"InvalidLocationGroup"  = "Organisationsgruppe er ugyldig";
+"DeviceAlreadyCheckedIn" = "Enhed er tjekket ind";
+"DeviceAlreadyCheckedOut" = "Enhed er tjekket ud";
+"InvalidCheckOutRequest" = "Ugyldig tjek ud anmodning";
+"FailedToSignRequest" = "Kunne ikke signere anmodning";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "Intet MAG godkendelsescertifikat er gemt på enheden, eller er ugyldigt.";
+"ProxyAuthenticationRequired" = "Proxygodkendelse påkrævet.";
+"InvalidAuthenticationForProxy" = "Angivneen proxygodkendelse er ugyldig.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Tjek godkendelses-legitimationsoplysninger og prøv igen.";
+"MissingDeviceRootCertificate" = "Mangler rodcertifikat for enhed";
+"AnActivationCode(LG)WasNeverSaved" = "En aktiveringskode (LG) er aldrig blevet gemt.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "Start af AWCompliance slog fejl";
+"InvalidCredentialsErrorTitle" = "Ugyldige legitimationsoplysninger. Tjek venligst dine login- oplysninger og gruppe-id og prøv igen.";
+"InvalidActivationCodeErrorMessage" = "Den angivne gruppe-id er ugyldigt. Prøv igen.";
+"DeviceNotFoundErrorMessage" = "Enheden kunne ikke findes i denne AirWatch-instans. Tilmeld venligst før du kan gøre brug af denne applikation.";
+"DeviceNotEnrolledErrorMessage" = "Enhed er ikke tilmeldt denne AirWatch-instans. Tilmeld venligst før du kan gøre brug af denne applikation.";
+"AccountLockedErrorMessage"                 = "Din konto er blevet låst ude af LDAP/AirWatch konsollen. Tjek venligst med administrator";
+"InActiveErrorMessage"                      = "Din konto er blevet deaktiveret i AirWatch konsollen. Tjek venligst med administrator";
+"InvalidTokenErrorMessage"                  = "Bruger forsøgte at logge på med et udløbet token/et token der ikke eksisterer. Tjek venligst med administrator";
+"SyncClientNotEnabledErrorMessage"          = "Synk klient er ikke aktiveret. Tjek venligst med administrator";
+"PersonalContentNotEnabledErrorMessage"     = "Personligt indhold er ikke aktiveret. Tjek venligst med administrator";
+"AwchatNotEnabled"                          = "AWChat er ikke aktiveret. Tjek venligst med administrator";
+"NoDeviceLogsToSend" = "Der er ingen enhedslogfiler at sende";
+"EmptyLogFile" ="Logfil er tom.";
+"NeedsWiFiToSendLogData" ="AirWatch konsol påkræver en Wi-Fi forbindelse for at sende datalogfil.";
+"AWRestrictionsFailedToStart" = "AWRestrictions kunne ikke starte";
+"FailedToGetToken"  = "Kunne ikke tjekke enhed ud. Prøv venligst igen eller kontakt administrator.";
+"FailedToInvalidateToken" = "Kunne ikke godkendeøre token ugyldig.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Indtast din PIN og SecureID token.";
+"AnswerPlaceHolderNewPin" = "Pinkode";
+"ChallengeServerError" = "Serverfejl. Kontakt venligst din administrator.";
+"ChallengeLocked" = "Din konto blev låst. Kontakt venligst din administrator.";
+"ChallengeNextTokenAuth" = "Indtast din PIN og næste SecureID token";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Indtast venligst din PIN og SecureID token";
+"ChallengeNewPinFromSystem" = "Indtast PIN som";
+"ChallengeNewPinFromUser" = "Indtast ny PIN";
+"ChallengeTokenAuth" = "Indtast venligst din PIN og SecureID token. Hvis du ikke har oprettet din PIN, så indtast kun dit SecureID token.";

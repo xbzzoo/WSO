@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "לא ניתן היה לאמת את האישורים שסופקו. נסה שוב.";
+"AuthenticateToResetPasscode" = "כדי לאפס את הסיסמה קודם צריך לבצע אימות";
+"Username"="שם משתמש";
+"Password" = "סיסמה";
+"UpdateUsernameWarningMessageTitle" = "האם אתה בטוח שברצונך לעדכן את שם המשתמש?";
+"ChangingUserWarning" = "כניסה לאפליקציה זו באמצעות שימוש בהרשאות שאינן ההרשאות המצוינות עלולה לגרום להתנהגות בלתי צפויה.";
+"LastAuthenticationAttemptWipeWarning"="זהו הניסיון האחרון שלך. נתוני האפליקציה יימחקו לאחר ניסיון אחד נוסף שלא יצליח";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "השתמש ב-TouchID";
+"UseFaceID" = "השתמש ב-FaceID";
+
+"AuthenticateForAccess" = "אמת לקבלת גישה";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "נראה שרשימת טביעות האצבע במכשיר שונתה. למטרות אבטחה, הזן מחדש את הסיסמה כדי לאפשר שוב את השימוש ב-TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "נראה שה-FaceID המאושר במכשיר זה השתנה. למטרות אבטחה, הזן מחדש את הסיסמה כדי לאפשר שוב את השימוש ב-FaceID.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "נראה שרשימת טביעות האצבע במכשיר שונתה. למטרות אבטחה, הזן מחדש את האישורים כדי לאפשר שוב את השימוש ב-TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "נראה שה-FaceID המאושר במכשיר זה השתנה. למטרות אבטחה, הזן מחדש את האישורים כדי לאפשר שוב את השימוש ב-FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "אירעה שגיאה בעת אימות עם TouchID. הזן מחדש את הסיסמה כדי לאפשר שוב את השימוש ב-TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "אירעה שגיאה בעת אימות עם FaceID. הזן מחדש את הסיסמה כדי לאפשר שוב את השימוש ב-FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "אירעה שגיאה בעת אימות עם TouchID. הזן מחדש את פרטי הכניסה כדי לאפשר שוב את השימוש ב-TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "אירעה שגיאה בעת אימות עם FaceID. הזן מחדש את פרטי הכניסה כדי לאפשר שוב את השימוש ב-TouchID.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "המכשיר שלך נחשף לסכנה (jail broken). ובגלל קישוריות הרשת, אינך יכול לגשת אל האפליקציה שלך.";
+
+"AccessRevokedTitle" = "הגישה לאפליקציה בוטלה";
+"AccessDeniedTitle" = "הגישה לאפליקציה נדחתה";
+"YourDeviceIsNotCompliantMessage" = "המכשיר אינו עומד בתקני התאימות שנקבעו על ידי מנהל ה-IT.";
+"DeviceIsCompliantMessage" = "המכשיר תואם";
+"PoliciesViolated" = "מדיניות שהופרה:";
+"PleaseContactYourITAdmitistator" = "צור קשר עם מנהל ה-IT.";
+"YourEnterpriseDataWillBeWiped" = "כל נתוני האפליקציה של החברה נמחקו.";
+"NonComplianceReasonJailbroken" = "המכשיר שלך נחשף לסכנה (jailbroken).";
+"NonComplianceReasonAppVersion" ="גרסת אפליקציה לא נתמכת.";
+"NonComplianceReasonOSVersion" = "גרסת מערכת הפעלה לא נתמכת.";
+"OSVersionCompliance" = "גרסת iOS תואמת.";
+"AppVersionCompliance" = "גרסת האפליקציה תואמת.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "המכשיר אינו רשום באמצעות חשבון משתמש AirWatch זה.";
+"NotMDMEnrolledErrorMessage" = "המשתמש מנסה להיכנס לסביבה שבה נדרשת הרשמה ל-MDM, בדוק עם המנהל";
+"UDIDiOS7CompatibiltiyError" = "המכשיר לא תואם לסביבה זו. אנא צור קשר עם מנהל המערכת שלך לקבלת עזרה נוספת. קוד שגיאה %d";
+"EnvironmentRequiresAgentOrWS1" = "סביבה זו דורשת שתיכנס באמצעות AirWatch Agent או Workspace ONE.";
+"NeedToUpdateYourEnvironmentInformation" = "נראה שאינך רשום עוד בסביבה הרשומה של האפליקציה הזו. ננסה כעת לעדכן את פרטי הסביבה שלך";
+"RetryToFetchConfigurationInformation" = "לא הצלחנו לאחזר את פרטי עיצוב התצורה. לחץ על \'המשך\' כדי לנסות שוב";
+"UnableToDetermineOldPasscode" = "לא ניתן לקבוע את הסיסמה הישנה. עליך להזין סיסמה כדי לשחזר את הנתונים או לבצע איפוס מלא מתוך SSP";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "סופק אסימון לא חוקי.";
+"AuthorizationToken" ="אסימון הרשאה";
+"Token" = "אסימון";
+"UseToken" = "השתמש באסימון";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "בעת ניסיון לקבל אישור מהגילוי האוטומטי, AW-SDK נתקל בכשל אימות מפתח ציבורי";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "בעת ניסיון לתקשר עם שירותי המכשיר, AW-SDK נתקל בכשל אימות מפתח ציבורי";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "נכשלה העברת DataSample";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "מלא";
+"UIDeviceBatteryStateChargingMessage" = "טוען";
+"UIDeviceBatteryStateUnpluggedMessage" = "לא מחובר";
+"NeedCameraPermission" = "לאפליקציה זו אין גישה למצלמה. כדי להפוך את הגישה לזמינה, הקש על 'הגדרות' והפעל את הפריט 'מצלמה'";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "המנהל אינו מאפשר לפתוח מסמך זה באפליקציה שנבחרה.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "לא מותקנות במכשירך האפליקציות המתאימות לביצוע הפעולה %@.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "החיבור נכשל עם קוד סטטוס %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "סיסמה";
+"EnterPasscodeError" = "הזן את הסיסמה החדשה";
+"MaximumPasscodeAgeHasExpired" = "פג תוקפה של הסיסמה הנוכחית. צור סיסמה חדשה.";
+"AttemptsLeftMessage" = "נותרו לך %d נסיונות";
+"PasscodeHasChangedEnterNewPasscode" = "הסיסמה שלך שונתה כבר ואתה עדיין משתמש בסיסמה הקודמת. הזן את הסיסמה החדשה המתאימה";
+
+"PasscodesMustMatch" = "הסיסמאות חייבות להיות תואמות";
+"CreatePasscode" = "צור סיסמה";
+"CreateNewPasscode" = "צור סיסמה חדשה";
+"ConfirmPasscode"         = "אשר סיסמה";
+"OnePasscodeForWS1Apps" = "סיסמה אחת לכל אפליקציות ה-Workspace ONE.";
+"EnterSharedPasscode" = "הזן סיסמה משותפת";
+"CreateSharedPasscode" = "צור סיסמה משותפת";
+"ForgotPasscode"          = "שכחת סיסמה?";
+"PasscodeDidntMatch"      = "הסיסמאות לא תאמו, הזן אותן שוב";
+"PasscodeRestriction"     = "הגבלת סיסמה";
+"ForgotPasscodeNotAvailable" = "האפשרות של שכחת סיסמה אינה זמינה במצב הפעולה שהוגדר על ידי המנהל. הירשם מחדש אם עליך לאפס את הסיסמה.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "הסיסמה שלך אינה תואמת להגבלות.";
+"PasscodeRequirementChanged" = "דרישות הסיסמה השתנו, צור סיסמה חדשה.";
+
+"IncorrectPasscodeEntered" = "הסיסמה שהוזנה אינה נכונה";
+"MimimumPasscodeLength"   = "הסיסמה צריכה לכלול לפחות %d תווים.";
+"MimimumComplexCharacters"= "הסיסמה צריכה לכלול לפחות %d תווים מורכבים.";
+"MinimumNumericPasscodeLengthInstruction" = "הסיסמה צריכה לכלול לפחות (%d) ספרות";
+"MaximumPasscodeLength"   = "הסיסמה אינה יכולה לכלול יותר מ-%d תווים.";
+"MaximumNumericPasscodeLengthInstruction" = "הסיסמה אינה יכולה לכלול יותר מ-%d ספרות";
+"NonMatchingPasscodeHistoryInstruction" = "אסור לסיסמה להיות זהה ל-(%d) הסיסמאות האחרונות.";
+"CannotBeSimpleNumericPasscodeInstrution" = "אסור לסיסמה להיות חוזרת/בסדר עולה/בסדר יורד";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "אסור לסיסמה להכיל תווים חוזרים/בסדר עולה/בסדר יורד";
+"MinimumComplexSymbolsRequiredInstruction" = " על הסיסמה לכלול לפחות (%d) סימנים";
+"AlphanumericNumberAndCharactersRequirement" = "על הסיסמה לכלול לפחות ספרה 1 ותו 1";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "חסר עיצוב תצורת ה-Proxy";
+"FailedToGetPACscript" = "קבלת PAC script נכשלה.";
+"SetAutoConfigURLProperty" = "הגדר את המאפיין autoConfigURL.";
+"AutoConfigURLPropertyIsNotSet" = "המאפיין autoConfigURL לא הוגדר.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "ודא שקיים script חוקי הממוקם בכתובת ה-URL שצוינה לעיצוב תצורה אוטומטי.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "נכשל פענוח הנתונים שאוחזרו מכתובת ה-URL לעיצוב תצורה אוטומטי.";
+"FailedToRetrievedAutoConfigUrlData" = "נכשל אחזור נתונים מכתובת ה-URL לעיצוב תצורה אוטומטי.";
+"MakeSurePACURLisValid" = "ודא שכתובת ה-URL של ה-PAC חוקית.";
+"ErrorAlertProxy" = "ישנה בעיה כלשהי לעצב תצורת MAG. בדוק את הגדרת ה-MAG.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "כתובת ה-URL של השרת שסופקה אינה חוקית. נסה שוב.";
+"UnknownServerErrorMessage" ="אירעה שגיאת שרת לא ידועה. צור קשר עם המנהל.";
+"EndpointUnavailable" = "בקשה זו אינה זמינה בגרסת מסוף הבקרה הנוכחית שלך.";
+"ConnectionLostError" = "החיבור לשרת אבד.\nנסה שוב מאוחר יותר.";
+
+"GroupID" = "מזהה קבוצה";
+"ServerURL" = "כתובת ה-URL של השרת";
+
+"ServerURLConnectionError" = "שגיאה בחיבור לשרת. בדוק את חיבור הרשת שלך או צור קשר עם מנהל המערכת";
+"EmptyServerDetailsErrorMessage" = "כדי להמשיך, הזן כתובת URL של השרת ומזהה קבוצה חוקיים.";
+"PendingUnenrollmentReportConnectivityError" = "כדי להמשיך, ודא שהמכשיר שלך מחובר לרשת.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "האפליקציה הפסיקה את האתחול עקב בקשת \'הפסק SDK\'.";
+"RegisteringApplicationBlocked" = "היישום אינו מורשה על ידי מסוף הבקרה לשימוש במכשיר זה.";
+"EnrollmentInformationSetup" = "לא ניתן היה להשלים את אחזור סטטוס ההרשמה.";
+"EmptyProfiles" = "לא אוחזרו פרופילי SDK ואין כלל פרופילים שמורים.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "לא ניתן לאחזר כעת את אישורי האימות המשולב.";
+"ApplicationIdentityNotSet" = "אימות זהות המשתמש נכשלה.";
+"FailedToFetchPinningCertificate" = "לא ניתן לאחזר כעת את אישורי ההצמדה של SSL.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "אין אפשרות לאחזר כעת את פרטי הסביבה של האפליקציה.";
+"ApplicationConfiguredIncorrectly" = "תצורת האפליקציה לא עוצבה כראוי. ערכות ההתקשרות-חזרה עבור אפליקציה זו לא הוגדרו כראוי באמצעות ה-SDK.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "אירעה שגיאה לא ידועה. צור קשר עם המנהל";
+"CannotUserSettingsErrorReAuthenticate"     = "אין אפשרות להשתמש בהגדרות שסופקו על-ידי שרת ה-MDM. הזן את שם המשתמש והסיסמה כדי להיכנס.";
+"ErrorCode" = "קוד שגיאה:";
+"AnErrorOccured" = "אירעה שגיאה";
+"ContactYourAdministrator" = "לקבלת מידע נוסף, צור קשר עם מנהל ה-IT שלך";
+"PleaseContactYourAdminstrator" = "צור קשר עם המנהל";
+"CannotUpdateCredentialsWhileLocked" = "לא ניתן לעדכן את האישורים עד לביטול הנעילה של מאגר הנתונים";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "מנהל המערכת שלך הגביל את העתקת התוכן רק לאפליקציות של %@.";
+"CopyInRestriction" = "מנהל המערכת אוסר הדבקה ממקורות לא מנוהלים.";
+"TamperedPasteboardContents" = "התוכן שהועתק ללוח שונה.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "הגדרות";
+"Success" = "הצלחה";
+"ThatWorks"= "זה יעבוד!";
+"ThatsAMatch" = "נמצאה התאמה!";
+"managed" = "מנוהל";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "לא ידוע";
+"Ok" = "אישור";
+"Retry" = "נסה שוב";
+"Wipe" = "מחק";
+"Warning" = "אזהרה";
+"ErrorTitle" = "שגיאה";
+"UnknownError" = "שגיאה לא ידועה";
+"Notice" = "הודעה";
+"TryAgain"= "נסה שוב";
+"EnableCameraAccess" = "אפשר גישה למצלמה";
+"ScanQRCodeTitle" = "סרוק קוד QR כדי למלא טופס";
+"Copy" = "העתק";
+"CopyLink" = "העתקת הקישור";
+"CopyImage" = "העתקת התמונה";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "התעלם";
+"Change"            = "שנה";
+"Confirm"="אשר";
+"Update" = "עדכן";
+"Cancel"            = "ביטול";
+"Login"             = "כניסה";
+"OK"                = "אישור";
+"Continue"                = "המשך";
+"Create" = "צור";
+"ManualSetup" = "הגדרה ידנית";
+"Accept"="קבל";
+"DeclineTitle" = "דחה";
+"Back" = "חזרה";
+"Next" = "הבא";
+"SignIn" = "היכנס";
+"UseUserNamePassword" = "השתמש בשם משתמש וסיסמה";
+"ScanQRCode" = "סרוק קוד QR";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "תנאי שימוש";
+"TermsAndConditionsAllCaps" = "תנאים והתניות";
+"TermsAndConditions" = "תנאים והתניות";
+"EmailAddress" = "כתובת אימייל";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "גישה לא מקוונת היא מוגבלת. התחבר לאינטרנט כדי לגשת למשאבים.";
+"OfflineAccessDurationExceeded" = "הגעת למכסת הגישה הלא-מקוונת. התחבר לאינטרנט כדי לגשת למשאבים.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "הוצאת מכשיר נכשלה";
+"NetworkConnectionLost" = "חיבור לרשת אבד";
+"ConnectionUnavailable" = "חיבור אינו זמין";
+"DeviceNotEnrolled" = "המכשיר אינו רשום";
+"DeviceNonCompliant" = "המכשיר אינו עומד בתאימות";
+"InvalidLocationGroup"  = "קבוצת מיקום אינה חוקית";
+"DeviceAlreadyCheckedIn" = "מכשיר כבר הוכנס על-ידי";
+"DeviceAlreadyCheckedOut" = "מכשיר כבר הוצא";
+"InvalidCheckOutRequest" = "בקשת הוצאה לא חוקית";
+"FailedToSignRequest" = "חתימת הבקשה נכשלה";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "אישור על אימות MAG אינו מאוחסן במכשיר, או שהוא אינו חוקי.";
+"ProxyAuthenticationRequired" = "נדרש אימות Proxy.";
+"InvalidAuthenticationForProxy" = "האימות שסופק ל-Proxy אינו חוקי.";
+"CheckAuthenticationCredentialsAndTryAgain" = "בדוק את נתוני האימות שאושרו עבורך, ונסה שוב.";
+"MissingDeviceRootCertificate" = "חסר אישור לבסיס המכשיר";
+"AnActivationCode(LG)WasNeverSaved" = "קוד הפעלה (LG) מעולם לא נשמר.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "הפעלת AWCompliance נכשלה";
+"InvalidCredentialsErrorTitle" = "אישורים לא חוקיים. בדוק את פרטי הכניסה ואת זיהוי הקבוצה ונסה שוב.";
+"InvalidActivationCodeErrorMessage" = "זיהוי הקבוצה שסופק אינו חוקי. נסה שוב.";
+"DeviceNotFoundErrorMessage" = "המכשיר לא נמצא במופע AirWatch זה. עליך להירשם לפני שתנסה להשתמש באפליקציה זו.";
+"DeviceNotEnrolledErrorMessage" = "המכשיר אינו רשום במופע AirWatch זה. עליך להירשם לפני שתנסה להשתמש באפליקציה זו.";
+"AccountLockedErrorMessage"                 = "החשבון שלך נעול ב-LDAP/Airwatch, בדוק עם המנהל";
+"InActiveErrorMessage"                      = "החשבון שלך בוטל במסוף הבקרה של Airwatch, בדוק עם המנהל";
+"InvalidTokenErrorMessage"                  = "המשתמש מנסה להיכנס עם אסימון פג תוקף/אסימון שאינו קיים, בדוק עם המנהל";
+"SyncClientNotEnabledErrorMessage"          = "סנכרון לקוח אינו מופעל, בדוק עם המנהל";
+"PersonalContentNotEnabledErrorMessage"     = "תוכן אישי אינו מופעל, בדוק עם המנהל";
+"AwchatNotEnabled"                          = "AWChat אינו מופעל, בדוק עם המנהל";
+"NoDeviceLogsToSend" = "אין יומני מכשיר לשליחה";
+"EmptyLogFile" ="קובץ היומן ריק.";
+"NeedsWiFiToSendLogData" ="מסוף הבקרה של AW דורש חיבור ל-WiFi כדי לשלוח נתוני יומן.";
+"AWRestrictionsFailedToStart" = "הפעלת AWRestrictions נכשלה";
+"FailedToGetToken"  = "לא ניתן להוציא את המכשיר. נסה שוב או פנה אל מנהל מערכת.";
+"FailedToInvalidateToken" = "נכשל ביטול תוקף האסימון.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "הזן את ה-PIN ואת אסימון ה-SecurID.";
+"AnswerPlaceHolderNewPin" = "PIN";
+"ChallengeServerError" = "שגיאת שרת. צור קשר עם המנהל.";
+"ChallengeLocked" = "החשבון שלך ננעל. צור קשר עם המנהל.";
+"ChallengeNextTokenAuth" = "הזן את ה-PIN ואת אסימון ה-SecurID הבא";
+"ChallengeNextTokenAuthAfterNewPinSet" = "הזן את ה-PIN ואת אסימון ה-SecurID";
+"ChallengeNewPinFromSystem" = "הזן PIN בתור";
+"ChallengeNewPinFromUser" = "הזן PIN חדש";
+"ChallengeTokenAuth" = "הזן את ה-PIN ואת אסימון ה-SecurID. אם לא הגדרת לעצמך PIN, הזן רק את אסימון ה-SecurID.";

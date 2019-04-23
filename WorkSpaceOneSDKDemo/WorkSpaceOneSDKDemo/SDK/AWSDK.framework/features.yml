@@ -1,0 +1,86 @@
+---
+features:
+    -
+        enabled: true
+        flag: CERTIFICATE_PINNING
+        name: "SSL Pinning"
+    -
+        enabled: false
+        flag: CERTIFICATE_PINNING_STRICT
+        name: "Strict SSL Pinning"
+    -
+        enabled: true
+        flag: BOXER_INTEGRATION_API
+        name: "Additional Boxer API Support"
+    -
+        dependencies:
+          -
+            pod: AWEncryptedStoreKit
+            version: "~> 1.0"
+        enabled: false
+        flag: ENABLE_COREDATA_ENCRYPTION
+        name: "Core Data Encryption"
+    -
+        dependencies:
+            -
+                pod: AWTunnel/EnableNetworkChange
+                version: "10.0.0"
+        enabled: true
+        flag: ENABLE_TUNNEL_PROXY
+        name: "Tunnel Proxy"
+    -
+        dependencies:
+            -
+                pod: SDKMixpanel
+                enabled: false
+        flag: ENABLE_MIXPANEL_ANALYTICS
+        name: "Mixpanel Analytics"
+    -
+        dependencies:
+            -
+                pod: AWDataSampler
+                version: "10.0.0"
+        enabled: true
+        flag: ENABLE_AW_ANALYTICS
+        name: "AirWatch Analytics"
+    -
+        dependencies:
+            -
+                pod: AWLog/Automation
+                enabled: true
+        flag: ENABLE_AUTOMATION_LOGGING
+        name: "Automation Logging"
+    -
+        dependencies:
+            -
+                pod: AirWatchServices/AllowDebug
+                version: "10.0.2"
+            -
+                pod: AWOpenURLClient
+                version: "4.6.0"
+        enabled: true
+        flag: AW_THIRD_PARTY_RELEASE
+        name: "Third Party App Support"
+    -
+        dependencies:
+            -
+                pod: AWCorePlatformHelpers/NiapAuditLogging
+                enabled: false
+        flag: ENABLE_NIAP_AUDIT_LOGGING
+        name: "NIAP Audit Logging"
+    -
+        dependencies:
+            -
+                pod: AirWatchServices/EnableNetworkChange
+                version: "10.0.2"
+        enabled: true
+        flag: ENABLE_NETWORK_CHANGE
+        name: "Enable Network Change"
+    -
+        dependencies:
+            -
+                pod: AirWatchServices/OnDeviceCompliance
+                version: "10.0.2"
+        enabled: false
+        flag: ENABLE_ON_DEVICE_COMPLIANCE
+        name: "Unmanaged Compliance Support"

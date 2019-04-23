@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "De angivna autentiseringsuppgifterna kan inte valideras. Försök igen.";
+"AuthenticateToResetPasscode" = "Du måste autentisera innan du kan återställa din lösenkod";
+"Username"="Användarnamn";
+"Password" = "Lösenord";
+"UpdateUsernameWarningMessageTitle" = "Är du säker på att du vill uppdatera användarnamnet?";
+"ChangingUserWarning" = "Inloggning på den här appen med andra autentiseringsuppgifter än de som angetts kan orsaka ett oväntat beteende.";
+"LastAuthenticationAttemptWipeWarning"="Detta är ditt sista försök. Programdata kommer att rensas efter nästa misslyckade försök";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "Använd TouchID";
+"UseFaceID" = "Använd FaceID";
+
+"AuthenticateForAccess" = "Autentisera för åtkomst";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "Fingeravtryckslistan på enheten verkar ha ändrats. Av säkerhetsskäl måste du ange din lösenkod igen för att åter kunna använda TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "Godkänt FaceID på den här enheten verkar ha ändrats. Av säkerhetsskäl måste du ange din lösenkod igen för att åter kunna använda FaceID.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "Fingeravtryckslistan på enheten verkar ha ändrats. Av säkerhetsskäl måste du ange dina inloggningsuppgifter igen för att åter kunna använda TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "Godkänt FaceID på den här enheten verkar ha ändrats. Av säkerhetsskäl måste du ange dina inloggningsuppgifter igen för att åter kunna använda FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "Ett fel inträffade vid autentisering med TouchID. Ange din lösenkod igen för att åter kunna använda TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "Ett fel inträffade vid autentisering med FaceID. Ange din lösenkod igen för att åter kunna använda FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "Ett fel inträffade vid autentisering med TouchID. Ange din lösenkod igen för att åter kunna använda TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "Ett fel inträffade vid autentisering med FaceID. Ange din lösenkod igen för att åter kunna använda FaceID.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Din enhet har säkerhetsbrister (jailbreakad). Du kan inte ansluta till applikationen utan ett nätverk.";
+
+"AccessRevokedTitle" = "Åtkomst till app återkallad";
+"AccessDeniedTitle" = "Åtkomst till app nekad";
+"YourDeviceIsNotCompliantMessage" = "Din enhet följer inte standarden som IT-administratören har satt.";
+"DeviceIsCompliantMessage" = "Enheten uppfyller standarden";
+"PoliciesViolated" = "Policyer som har överträtts:";
+"PleaseContactYourITAdmitistator" = "Kontakta din IT-administratör.";
+"YourEnterpriseDataWillBeWiped" = "All företagsdata på appen har raderats.";
+"NonComplianceReasonJailbroken" = "Din enhet har säkerhetsbrister (jailbreakad).";
+"NonComplianceReasonAppVersion" ="Appversionen stöds ej.";
+"NonComplianceReasonOSVersion" = "Operativsystemversionen stöds ej.";
+"OSVersionCompliance" = "iOS-versionen uppfyller standarden.";
+"AppVersionCompliance" = "Applikationsversionen uppfyller standarden.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "Enheten är inte registrerad i AirWatch med det här användarkontot.";
+"NotMDMEnrolledErrorMessage" = "Du har försökt ansluta till en miljö som kräver MDM-registrering. Kontakta din IT-administratör.";
+"UDIDiOS7CompatibiltiyError" = "Enheten är inte kompatibel med denna miljö. Kontakta din systemadministratör för hjälp. Felkod %d";
+"EnvironmentRequiresAgentOrWS1" = "I den här miljön måste du logga in med AirWatch Agent eller Workspace ONE.";
+"NeedToUpdateYourEnvironmentInformation" = "Det verkar som att du inte längre är registrerad i appens registrerade miljö. Vi ska försöka uppdatera miljöinformationen";
+"RetryToFetchConfigurationInformation" = "Det gick inte att hämta konfigurationsinformationen. Tryck på fortsätt för att försök igen";
+"UnableToDetermineOldPasscode" = "Det gick inte att fastställa din gamla lösenkod. Ange din lösenkod för att få tillbaka dina data eller återställ helt från SSP";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "En ogiltig token angavs.";
+"AuthorizationToken" ="Autentiseringstoken";
+"Token" = "Token";
+"UseToken" = "Använd token";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK mottar ett fel med autentisering av publik nyckel vid försök att hämta certifikatet från automatiskt identifiering";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK mottar ett fel med autentisering av publik nyckel vid försök att kommunicera med enhetstjänster";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "Dataregistrering kunde inte överföras";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "Laddat";
+"UIDeviceBatteryStateChargingMessage" = "Laddar";
+"UIDeviceBatteryStateUnpluggedMessage" = "Ej ansluten";
+"NeedCameraPermission" = "Den här appen har inte åtkomst till kameran. Tryck på Inställningar och aktivera kameran för att ge åtkomst.";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "Administratören tillåter inte att det här dokumentet öppnas i den här appen.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "Du har inte installerat de tillåtna apparna för att kunna utföra %@ åtgärden.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "Anslutningen misslyckades med statuskoden %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "Lösenkod";
+"EnterPasscodeError" = "Ange den nya lösenkoden";
+"MaximumPasscodeAgeHasExpired" = "Din nuvarande lösenkod har förfallit. Var god skapa en ny.";
+"AttemptsLeftMessage" = "Du har %d försök kvar";
+"PasscodeHasChangedEnterNewPasscode" = "Ditt lösenord har redan ändrats men du använder fortfarande ditt gamla lösenord. Ange ditt nya lösenord";
+
+"PasscodesMustMatch" = "Lösenkoderna matchar inte";
+"CreatePasscode" = "Skapa lösenkod";
+"CreateNewPasscode" = "Skapa ny lösenkod";
+"ConfirmPasscode"         = "Bekräfta lösenkoden";
+"OnePasscodeForWS1Apps" = "En lösenkod för alla Workspace ONE-appar.";
+"EnterSharedPasscode" = "Ange delad lösenkod";
+"CreateSharedPasscode" = "Skapa delad lösenkod";
+"ForgotPasscode"          = "Glömt lösenkoden?";
+"PasscodeDidntMatch"      = "Lösenkoden stämmer inte. Försök igen.";
+"PasscodeRestriction"     = "Löskodsbegränsning";
+"ForgotPasscodeNotAvailable" = "Glömt lösenkoden är inte tillgängligt i driftsläget som konfigurerats av administratören. Registrera dig igenom du vill återställa din lösenkod.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "Lösenkoden uppfyller inte kraven.";
+"PasscodeRequirementChanged" = "Lösenkodskraven har ändrats. Skapa en ny lösenkod.";
+
+"IncorrectPasscodeEntered" = "Lösenkoden som du har angett är felaktig";
+"MimimumPasscodeLength"   = "Lösenkoden bör bestå av minst %d tecken.";
+"MimimumComplexCharacters"= "Lösenkoden bör bestå av minst %d komplexa tecken.";
+"MinimumNumericPasscodeLengthInstruction" = "Lösenkoden ska bestå av minst (%d) siffror";
+"MaximumPasscodeLength"   = "Lösenkoden får inte bestå av fler än %d tecken.";
+"MaximumNumericPasscodeLengthInstruction" = "Lösenkoden får inte bestå av fler än %d siffror";
+"NonMatchingPasscodeHistoryInstruction" = "Lösenkoden får inte överensstämma med de senaste (%d) lösenkoderna.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Lösenkoden ska inte vara upprepande/stigande/fallande";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Lösenkoden ska inte innehålla upprepade/stigande/fallande tecken";
+"MinimumComplexSymbolsRequiredInstruction" = " Lösenkoden ska bestå av minst (%d) symboler";
+"AlphanumericNumberAndCharactersRequirement" = "Lösenkoden måste ha minst 1 siffra och 1 tecken";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "Det saknas en proxykonfiguration";
+"FailedToGetPACscript" = "Kunde inte hämta PAC-skript.";
+"SetAutoConfigURLProperty" = "Ställ in egenskap för autoConfigURL.";
+"AutoConfigURLPropertyIsNotSet" = "Det har inte ställts in någon egenskap för autoConfigURL.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Kontrollera att det finns ett giltigt skript vid den angivna webbadressen för automatisk konfiguration.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Datan som hämtades från webbadressen för automatisk konfiguration kunde inte avkodas.";
+"FailedToRetrievedAutoConfigUrlData" = "Kunde inte hämta data från webbadressen för automatisk konfiguration.";
+"MakeSurePACURLisValid" = "Kontrollera att PAC-webbadressen är giltig.";
+"ErrorAlertProxy" = "MAG kan inte konfigureras. Kontrollera dina inställningar för MAG.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "En ogiltig webbadress till servern har angetts. Försök igen.";
+"UnknownServerErrorMessage" ="Ett okänt serverfel har inträffat. Kontakta din administratör.";
+"EndpointUnavailable" = "Denna förfrågan är inte tillgänglig i nuvarande konsolversion.";
+"ConnectionLostError" = "Anslutningen till serven gick förlorad.\nFörsök igen senare.";
+
+"GroupID" = "Grupp-ID";
+"ServerURL" = "Webbadress till server";
+
+"ServerURLConnectionError" = "Det gick inte att ansluta till servern. Kontrollera nätverksanslutningen eller kontakta din systemadministratör";
+"EmptyServerDetailsErrorMessage" = "Ange en giltig server-URL och ett grupp-ID när du vill fortsätta.";
+"PendingUnenrollmentReportConnectivityError" = "Se till att enheten är ansluten till nätverket innan du fortsätter.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "Applikationen har stoppat initieringen på grund av en begäran om att stoppa SDK.";
+"RegisteringApplicationBlocked" = "Appen är inte berättigad att användas i den här enheten av konsolen.";
+"EnrollmentInformationSetup" = "Hämtningen av registreringsstatus kunde inte slutföras.";
+"EmptyProfiles" = "Inga SDK-profiler hämtades och det finns inga sparade profiler.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Integrerade autentiseringscertifikat kunde inte hämtas just nu.";
+"ApplicationIdentityNotSet" = "Användarens identitet kunde inte valideras.";
+"FailedToFetchPinningCertificate" = "SSL-fastnålningscertifikat kunde inte hämtas just nu.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "Det gick inte att hämta miljöinformationen för applikationen just nu.";
+"ApplicationConfiguredIncorrectly" = "Appen har inte konfigurerats korrekt. Återanropsscheman för appen är inte ordentligt inställda med SDK.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "Ett okänt fel har inträffat. Kontakta din administratör";
+"CannotUserSettingsErrorReAuthenticate"     = "Det går inte att använda inställningarna i MDM-servern. Ange ditt användarnamn och lösenord för att logga in.";
+"ErrorCode" = "Felkod:";
+"AnErrorOccured" = "Ett fel uppstod.";
+"ContactYourAdministrator" = "Kontakta IT-administratören för mer information.";
+"PleaseContactYourAdminstrator" = "Kontakta din systemadministratör.";
+"CannotUpdateCredentialsWhileLocked" = "Det går inte att uppdatera inloggningsuppgifterna förrän dataarkivet har låsts upp";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "Din administratör har begränsat kopierat innehåll så att det endast är tillgängligt i %@-applikationer.";
+"CopyInRestriction" = "Din administratör har avaktiverat inklistring från ohanterade resurser.";
+"TamperedPasteboardContents" = "Innehållet i dina urklipp verkar ha manipulerats.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "Inställningar";
+"Success" = "Slutfört";
+"ThatWorks"= "Det funkar!";
+"ThatsAMatch" = "Det stämmer!";
+"managed" = "Hanterad";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "Okänt";
+"Ok" = "OK";
+"Retry" = "Försök igen";
+"Wipe" = "Rensa";
+"Warning" = "Varning";
+"ErrorTitle" = "Fel";
+"UnknownError" = "Okänt fel";
+"Notice" = "Meddelande";
+"TryAgain"= "Försök igen";
+"EnableCameraAccess" = "Aktivera åtkomst till kamera";
+"ScanQRCodeTitle" = "Skanna QR-koden för att fylla i formuläret";
+"Copy" = "Kopiera";
+"CopyLink" = "Kopiera länk";
+"CopyImage" = "Kopiera bild";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "Avfärda";
+"Change"            = "Byt";
+"Confirm"="Bekräfta";
+"Update" = "Uppdatering";
+"Cancel"            = "Avbryt";
+"Login"             = "Logga in";
+"OK"                = "OK";
+"Continue"                = "Fortsätt";
+"Create" = "Skapa";
+"ManualSetup" = "Manuell inställning";
+"Accept"="Godkänn";
+"DeclineTitle" = "Avböj";
+"Back" = "Tillbaka";
+"Next" = "Nästa";
+"SignIn" = "Logga in";
+"UseUserNamePassword" = "Använd användarnamn-lösenord";
+"ScanQRCode" = "Skanna QR-kod";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "Användarvillkor";
+"TermsAndConditionsAllCaps" = "ANVÄNDARVILLKOR";
+"TermsAndConditions" = "Användarvillkor";
+"EmailAddress" = "E-postadress";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "Åtkomst offline har begränsats. Koppla upp dig på nätet för åtkomst till resurser.";
+"OfflineAccessDurationExceeded" = "Du har nått gränsen för antalet åtkomster offline. Koppla upp dig till internet för åtkomst till resurser.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "Utcheckning av enhet misslyckades";
+"NetworkConnectionLost" = "Nätverksanslutningen har förlorats";
+"ConnectionUnavailable" = "Anslutningen är inte tillgänglig";
+"DeviceNotEnrolled" = "Enheten är inte registrerad";
+"DeviceNonCompliant" = "Enheten har säkerhetsbrister";
+"InvalidLocationGroup"  = "Organisationsgruppen är inte giltig";
+"DeviceAlreadyCheckedIn" = "Enheten är redan incheckad";
+"DeviceAlreadyCheckedOut" = "Enheten är redan utcheckad";
+"InvalidCheckOutRequest" = "Ogiltig utcheckningsförfrågan";
+"FailedToSignRequest" = "Förfrågan kunde inte signeras";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "Det finns inget eller ett ogiltigt autentiseringscertifikat för MAG lagrat på enheten.";
+"ProxyAuthenticationRequired" = "Det krävs autentisering med proxy.";
+"InvalidAuthenticationForProxy" = "Autentiseringen mot proxyn är ogiltig.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Kontrollera dina autentiseringsuppgifter och försök igen.";
+"MissingDeviceRootCertificate" = "Enhetsrotcertifikat saknas";
+"AnActivationCode(LG)WasNeverSaved" = "Ingen aktiveringskod har sparats (organisationsgrupp).";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "AWCompliance kunde inte startas";
+"InvalidCredentialsErrorTitle" = "Ogiltiga inloggningsuppgifter. Kontrollera dina inloggningsuppgifter och ditt grupp-ID och försök igen.";
+"InvalidActivationCodeErrorMessage" = "Ett ogiltigt grupp-ID har angetts. Försök igen.";
+"DeviceNotFoundErrorMessage" = "Enheten kunde inte hittas i den här AirWatch-instansen. Registrera enheten om du vill använda den här applikationen.";
+"DeviceNotEnrolledErrorMessage" = "Enheten är inte registrerad på den här AirWatch-instansen. Registrera enheten om du vill använda den här applikationen.";
+"AccountLockedErrorMessage"                 = "Ditt konto har uteslutits från LDAP/Airwatch. Kontakta din IT-administratör.";
+"InActiveErrorMessage"                      = "Ditt konto har avaktiverats i AirWatch-konsolen. Kontakta din IT-administratör.";
+"InvalidTokenErrorMessage"                  = "Du har försökt ansluta utan token eller med förfallen token. Kontakta din IT-administratör.";
+"SyncClientNotEnabledErrorMessage"          = "Synkklienten är inte aktiverad. Kontakta din IT-administratör.";
+"PersonalContentNotEnabledErrorMessage"     = "Personligt innehåll är inte aktiverat. Kontakta din IT-administratör.";
+"AwchatNotEnabled"                          = "AWChat är inte aktiverad. Kontakta din IT-administratör.";
+"NoDeviceLogsToSend" = "Det finns inga enhetsloggar att skicka";
+"EmptyLogFile" ="Loggfilen är tom.";
+"NeedsWiFiToSendLogData" ="AirWatch-konsolen kräver Wi-Fi-anslutning för att loggdata ska skickas.";
+"AWRestrictionsFailedToStart" = "AWRestrictions kunde inte starta";
+"FailedToGetToken"  = "Enheten kunde inte checkas ut. Försök igen eller kontakta en administratör.";
+"FailedToInvalidateToken" = "Token kunde inte ogiltiggöras.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Ange din PIN-kod och SecureID-token.";
+"AnswerPlaceHolderNewPin" = "PIN-kod";
+"ChallengeServerError" = "Serverfel. Kontakta din administratör.";
+"ChallengeLocked" = "Ditt konto har låsts. Kontakta din administratör.";
+"ChallengeNextTokenAuth" = "Ange din PIN-kod och nästa SecureID-token";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Ange din PIN-kod och SecureID-token";
+"ChallengeNewPinFromSystem" = "Ange PIN-kod som";
+"ChallengeNewPinFromUser" = "Ange ny PIN-kod";
+"ChallengeTokenAuth" = "Ange din PIN-kod och SecureID-token. Om du inte har ställt in PIN-kod anger du SecureID-token.";

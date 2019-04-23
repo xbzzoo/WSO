@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "Не удалось проверить предоставленные учетные данные. Повторите попытку.";
+"AuthenticateToResetPasscode" = "Перед сбросом секретного кода необходимо выполнить аутентификацию.";
+"Username"="Имя пользователя";
+"Password" = "Пароль";
+"UpdateUsernameWarningMessageTitle" = "Вы хотите обновить имя пользователя?";
+"ChangingUserWarning" = "Если войти в приложение с учетными данными, которые отличаются от указанных, это может привести к неожиданному поведению.";
+"LastAuthenticationAttemptWipeWarning"="Это последняя попытка. Данные приложения будут удалены после еще одной неудачной попытки.";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "Использовать TouchID";
+"UseFaceID" = "Использовать FaceID";
+
+"AuthenticateForAccess" = "Для доступа необходима аутентификация";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "Возможно, список отпечатков пальцев на устройстве изменился. В целях безопасности, повторно введите секретный код, чтобы снова включить использование TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "Возможно, одобренный идентификатор FaceID на данном устройстве изменился. В целях безопасности повторно введите секретный код, чтобы снова включить FaceID.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "Возможно, список отпечатков пальцев на устройстве изменился. В целях безопасности, повторно введите учетные данные, чтобы снова включить использование TouchID.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "Возможно, одобренный идентификатор FaceID на данном устройстве изменился. В целях безопасности повторно введите свои учетные данные, чтобы снова включить технологию FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "Во время аутентификации с использованием TouchID произошла ошибка. Повторно введите секретный код, чтобы снова включить TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "Во время аутентификации с использованием FaceID произошла ошибка. Повторно введите секретный код, чтобы снова включить FaceID.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "Во время аутентификации с использованием TouchID произошла ошибка. Повторно введите свои учетные данные, чтобы снова включить TouchID.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "Во время аутентификации с использованием FaceID произошла ошибка. Повторно введите свои учетные данные, чтобы снова включить FaceID.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Ваше устройство взломано (джейлбрейк), и из-за проблем с сетью, у вас нет доступа к приложению.";
+
+"AccessRevokedTitle" = "Доступ к приложению отозван";
+"AccessDeniedTitle" = "В доступе к приложению отказано";
+"YourDeviceIsNotCompliantMessage" = "Ваше устройство не соответствует стандартам, заданным вашим ИТ-администратором.";
+"DeviceIsCompliantMessage" = "Устройство соответствует требованиям";
+"PoliciesViolated" = "Нарушенные политики:";
+"PleaseContactYourITAdmitistator" = "Обратитесь к ИТ-администратору.";
+"YourEnterpriseDataWillBeWiped" = "Все данные корпоративного приложения удалены.";
+"NonComplianceReasonJailbroken" = "Ваше устройство скомпрометировано (джейлбрейк).";
+"NonComplianceReasonAppVersion" ="Неподдерживаемая версия приложения.";
+"NonComplianceReasonOSVersion" = "Неподдерживаемая версия ОС.";
+"OSVersionCompliance" = "Версия iOS соответствует требованиям.";
+"AppVersionCompliance" = "Версия приложения соответствует требованиям.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "Устройство не зарегистрировано с этой учетной записью пользователя AirWatch.";
+"NotMDMEnrolledErrorMessage" = "Попытка пользователя войти в среду, в которой необходима MDM-регистрация. Свяжитесь с администратором.";
+"UDIDiOS7CompatibiltiyError" = "Устройство не совместимо с этой средой. Пожалуйста, обратитесь к вашему системному администратору за дополнительной помощью. Код ошибки %d";
+"EnvironmentRequiresAgentOrWS1" = "Для работы с этой средой необходимо выполнить вход с помощью AirWatch Agent или Workspace ONE.";
+"NeedToUpdateYourEnvironmentInformation" = "Похоже, вы больше не зарегистрированы в среде записи этого приложения. Сейчас мы попытаемся обновить информацию о вашей среде.";
+"RetryToFetchConfigurationInformation" = "Не удалось загрузить сведения о конфигурации. Нажмите кнопку «Продолжить», чтобы повторить попытку.";
+"UnableToDetermineOldPasscode" = "Не удалось определить старый секретный код. Чтобы вернуть доступ к данным, введите секретный код или выполните полный сброс из SSP.";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "Предоставленный маркер недействителен.";
+"AuthorizationToken" ="Маркер авторизации";
+"Token" = "Маркер";
+"UseToken" = "Использовать маркер";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK получает сбой аутентификации общедоступного ключа при попытке получить сертификат при помощи автообнаружения.";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK получает сбой аутентификации общедоступного ключа при попытке связи со службами устройств.";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "Не удалось передать выборку данных";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "Полностью заряжено";
+"UIDeviceBatteryStateChargingMessage" = "Заряжается";
+"UIDeviceBatteryStateUnpluggedMessage" = "Отключен от сети";
+"NeedCameraPermission" = "У данного приложения нет доступа к камере. Чтобы предоставить доступ, перейдите в \"Настройки\" и включите камеру. ";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "Администратор не разрешает открывать этот документ в выбранном приложении.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "Для выполнения действия %@ у вас не установлены разрешенные приложения на устройстве.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "Ошибка подключения, код состояния: %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "Секр. код";
+"EnterPasscodeError" = "Введите новый секр. код";
+"MaximumPasscodeAgeHasExpired" = "Срок действия секр. кода истек. Создайте новый секр. код.";
+"AttemptsLeftMessage" = "У вас осталось попыток: %d";
+"PasscodeHasChangedEnterNewPasscode" = "Вы указали старый пароль, хотя он был изменен. Введите правильный новый пароль.";
+
+"PasscodesMustMatch" = "Секр. коды должны совпадать";
+"CreatePasscode" = "Создать секр. код";
+"CreateNewPasscode" = "Создать новый секр. код";
+"ConfirmPasscode"         = "Подтвердите секретный код";
+"OnePasscodeForWS1Apps" = "Единый секретный код для всех приложений Workspace ONE.";
+"EnterSharedPasscode" = "Введите общий секр. код";
+"CreateSharedPasscode" = "Создать общий секр. код";
+"ForgotPasscode"          = "Забыли секр. код?";
+"PasscodeDidntMatch"      = "Секр. коды не совпадают, повторите попытку.";
+"PasscodeRestriction"     = "Ограничения секр. кода";
+"ForgotPasscodeNotAvailable" = "Функция сброса забытого секретного кода недоступна в режиме работы, настроенном вашим администратором. Если нужно сбросить секретный код, выполните регистрацию заново.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "Секр. код не соответствует правилам.";
+"PasscodeRequirementChanged" = "Требования к секр. коду изменились. Создайте новый секр. код.";
+
+"IncorrectPasscodeEntered" = "Неверный секр. код";
+"MimimumPasscodeLength"   = "Секр. код должен включать как минимум %d знаков.";
+"MimimumComplexCharacters"= "Секр. код должен включать как минимум %d сложных знаков.";
+"MinimumNumericPasscodeLengthInstruction" = "Секр. код должен содержать не менее (%d) цифр.";
+"MaximumPasscodeLength"   = "Длина секретного кода не должна превышать %d зн.";
+"MaximumNumericPasscodeLengthInstruction" = "Секретный код не должен содержать более %d цифр.";
+"NonMatchingPasscodeHistoryInstruction" = "Секр. код не должен совпадать с предыдущими (%d) секр. кодами.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Секр. код не должен быть восходящим, нисходящим или повторяться.";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Секр. код не должен содержать восходящие, нисходящие или повторяющиеся знаки.";
+"MinimumComplexSymbolsRequiredInstruction" = " Секр. код должен содержать не менее (%d) знаков.";
+"AlphanumericNumberAndCharactersRequirement" = "Секретный код должен содержать как минимум 1 цифру и 1 знак";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "Отсутствует конфигурация прокси";
+"FailedToGetPACscript" = "Не удалось получить сценарий PAC.";
+"SetAutoConfigURLProperty" = "Установите свойство автонастройки URL-адреса.";
+"AutoConfigURLPropertyIsNotSet" = "Свойство автонастройки URL-адреса не установлено.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Убедитесь, что существует правильный сценарий, расположенный по указанному URL-адресу в автонастройках.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Не удалось расшифровать данные, полученные с URL-адреса автонастройки.";
+"FailedToRetrievedAutoConfigUrlData" = "Не удалось получить данные с URL-адреса автонастройки.";
+"MakeSurePACURLisValid" = "Убедитесь в правильности URL-адреса PAC.";
+"ErrorAlertProxy" = "Возникла проблема с конфигурацией MAG. Проверьте параметры MAG.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "Предоставленный URL-адрес сервера недействителен. Повторите попытку.";
+"UnknownServerErrorMessage" ="Произошла неизвестная ошибка сервера. Свяжитесь с администратором.";
+"EndpointUnavailable" = "Недоступно в текущей версии консоли.";
+"ConnectionLostError" = "Связь с сервером потеряна.\nПовторите попытку позже.";
+
+"GroupID" = "ID группы";
+"ServerURL" = "URL-адрес сервера";
+
+"ServerURLConnectionError" = "Ошибка при подключении к серверу. Проверьте сетевое подключение или свяжитесь с системным администратором.";
+"EmptyServerDetailsErrorMessage" = "Чтобы продолжить, введите действительный URL-адрес сервера и идентификатор группы.";
+"PendingUnenrollmentReportConnectivityError" = "Чтобы продолжить, убедитесь, что устройство подключено к сети.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "В связи с запросом \"Остановить SDK\" приложение прекратило инициализацию.";
+"RegisteringApplicationBlocked" = "Использование приложения на этом устройстве запрещено политиками консоли.";
+"EnrollmentInformationSetup" = "Не удалось получить состояние регистрации.";
+"EmptyProfiles" = "Профили SDK не были получены. Отсутствуют сохраненные профили.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "В настоящее время невозможно получить встроенные сертификаты аутентификации.";
+"ApplicationIdentityNotSet" = "Не удалось проверить личность пользователя.";
+"FailedToFetchPinningCertificate" = "В настоящее время невозможно получить SSL-сертификаты закрепления.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "На данный момент не удалось загрузить информацию о среде приложения.";
+"ApplicationConfiguredIncorrectly" = "Приложение настроено неправильно. Схемы обратного вызова для этого приложения не установлены надлежащим образом с помощью пакета SDK.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "Произошла неизвестная ошибка. Свяжитесь с администратором.";
+"CannotUserSettingsErrorReAuthenticate"     = "Невозможно использовать настройки, предоставленные сервером MDM. Для выполнения входа введите имя пользователя и пароль.";
+"ErrorCode" = "Код ошибки:";
+"AnErrorOccured" = "Произошла ошибка";
+"ContactYourAdministrator" = "Для получения дополнительных сведений обратитесь к администратору";
+"PleaseContactYourAdminstrator" = "Свяжитесь с администратором";
+"CannotUpdateCredentialsWhileLocked" = "Учетные данные можно обновить только после разблокирования хранилища.";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "Ваш администратор разрешил доступ к скопированному содержимому только в %@ приложениях.";
+"CopyInRestriction" = "Ваш администратор запретил вставку из неуправляемых источников.";
+"TamperedPasteboardContents" = "Видимо, содержимое вашей панели вставки было изменено.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "Настройки";
+"Success" = "Выполнено";
+"ThatWorks"= "Подходит!";
+"ThatsAMatch" = "Совпадение!";
+"managed" = "Управляемые";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "Неизвестно";
+"Ok" = "ОК";
+"Retry" = "Повторить";
+"Wipe" = "Очистить";
+"Warning" = "Предупреждение";
+"ErrorTitle" = "Ошибка";
+"UnknownError" = "Неизвестная ошибка";
+"Notice" = "Уведомление";
+"TryAgain"= "Повторите попытку";
+"EnableCameraAccess" = "Включить доступ к камере";
+"ScanQRCodeTitle" = "Для заполнения формы отсканируйте QR-код";
+"Copy" = "Копировать";
+"CopyLink" = "Скопировать ссылку";
+"CopyImage" = "Копировать образ";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "Закрыть";
+"Change"            = "Изменить";
+"Confirm"="Подтвердить";
+"Update" = "Обновить";
+"Cancel"            = "Отмена";
+"Login"             = "Вход";
+"OK"                = "ОК";
+"Continue"                = "Продолжить";
+"Create" = "Создать";
+"ManualSetup" = "Ручная настройка";
+"Accept"="Принять";
+"DeclineTitle" = "Отклонить";
+"Back" = "Назад";
+"Next" = "Далее";
+"SignIn" = "Войти";
+"UseUserNamePassword" = "Использовать имя пользователя и пароль";
+"ScanQRCode" = "Сканируйте QR-код";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "Условия использования";
+"TermsAndConditionsAllCaps" = "УСЛОВИЯ И ПОЛОЖЕНИЯ";
+"TermsAndConditions" = "Условия и положения";
+"EmailAddress" = "Адрес электронной почты";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "Доступ вне сети ограничен. Для доступа к ресурсам, подключитесь к Интернету.";
+"OfflineAccessDurationExceeded" = "Вы достигли максимального кол-ва доступов вне сети. Подключитесь к Интернету, чтобы получить доступ к ресурсам.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "Взять устройство не удалось";
+"NetworkConnectionLost" = "Сетевое подключение потеряно";
+"ConnectionUnavailable" = "Подключение недоступно";
+"DeviceNotEnrolled" = "Устройство не зарегистрировано";
+"DeviceNonCompliant" = "Устройство не соответствует";
+"InvalidLocationGroup"  = "Орг. группа недействительна";
+"DeviceAlreadyCheckedIn" = "Устройство уже возвращено";
+"DeviceAlreadyCheckedOut" = "Устройство уже взято";
+"InvalidCheckOutRequest" = "Недействительный запрос взятия устройства";
+"FailedToSignRequest" = "Не удалось подписать запрос";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "На этом устройстве отсутствует сертификат аутентификации MAG, либо он недействителен.";
+"ProxyAuthenticationRequired" = "Требуется аутентификация прокси.";
+"InvalidAuthenticationForProxy" = "Недопустимая аутентификация прокси.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Проверьте свои учетные данные аутентификации и повторите попытку.";
+"MissingDeviceRootCertificate" = "Отсутствует корневой сертификат устройства";
+"AnActivationCode(LG)WasNeverSaved" = "Код активации (ОГ) не был сохранен.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "Не удалось запустить соответствие AirWatch";
+"InvalidCredentialsErrorTitle" = "Неверные учетные данные. Пожалуйста, проверьте ваши данные входа, идентификатор группы и повторите попытку.";
+"InvalidActivationCodeErrorMessage" = "Предоставленный идентификатор группы недействителен. Повторите попытку.";
+"DeviceNotFoundErrorMessage" = "Устройство не найдено в данном экземпляре AirWatch. Перед использованием этого приложения выполните регистрацию.";
+"DeviceNotEnrolledErrorMessage" = "Устройство не зарегистрировано в данном экземпляре AirWatch. Перед использованием этого приложения выполните регистрацию.";
+"AccountLockedErrorMessage"                 = "Ваша учетная запись заблокирована в LDAP/AirWatch. Свяжитесь с администратором.";
+"InActiveErrorMessage"                      = "Ваша учетная запись деактивирована в консоли AirWatch. Свяжитесь с администратором.";
+"InvalidTokenErrorMessage"                  = "Попытка пользователя войти с помощью маркера с истекшим сроком действия/несуществующего маркера. Свяжитесь с администратором.";
+"SyncClientNotEnabledErrorMessage"          = "Клиент синхронизации отключен. Свяжитесь с администратором.";
+"PersonalContentNotEnabledErrorMessage"     = "Личный контент отключен. Свяжитесь с администратором.";
+"AwchatNotEnabled"                          = "AirWatch Chat отключен. Свяжитесь с администратором.";
+"NoDeviceLogsToSend" = "Нет журналов устройства для отправки";
+"EmptyLogFile" ="Файл журнала пустой.";
+"NeedsWiFiToSendLogData" ="Для отправки данных журналов консоли AirWatch необходимо подключение к Wi-Fi.";
+"AWRestrictionsFailedToStart" = "Не удалось запустить ограничения AirWatch";
+"FailedToGetToken"  = "Не удалось взять устройство. Повторите попытку или свяжитесь с администратором.";
+"FailedToInvalidateToken" = "Не удалось аннулировать маркер.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Введите PIN-код и маркер SecureID.";
+"AnswerPlaceHolderNewPin" = "PIN-код";
+"ChallengeServerError" = "Ошибка сервера. Пожалуйста, свяжитесь с администратором.";
+"ChallengeLocked" = "Ваша учетная запись заблокирована. Свяжитесь с администратором.";
+"ChallengeNextTokenAuth" = "Введите PIN-код и следующий маркер SecureID.";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Введите PIN-код и маркер SecureID.";
+"ChallengeNewPinFromSystem" = "Введите PIN-код как";
+"ChallengeNewPinFromUser" = "Введите новый PIN-код";
+"ChallengeTokenAuth" = "Введите PIN-код и маркер SecureID. Если вы не установили PIN-код, тогда введите только маркер SecureID.";

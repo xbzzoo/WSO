@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "无法验证所提供的凭证。请重试。";
+"AuthenticateToResetPasscode" = "您需要先进行身份验证，然后才能重置您的密码";
+"Username"="用户名";
+"Password" = "密码";
+"UpdateUsernameWarningMessageTitle" = "您确定想更新用户名吗?";
+"ChangingUserWarning" = "使用指定凭证之外的凭证登录此应用程序可导致意外情况出现。";
+"LastAuthenticationAttemptWipeWarning"="这是您最后一次的尝试机会。若再次尝试失败，应用程序数据就会被擦除";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "使用 TouchID";
+"UseFaceID" = "使用 FaceID";
+
+"AuthenticateForAccess" = "进行访问验证";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "设备上的指纹列表似乎已被更改。为安全起见，请重新输入您的密码以再次启用 TouchID。";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "设备上的已批准 FaceID 似乎已被更改。为安全起见，请重新输入您的密码以再次使用 FaceID。";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "设备上的指纹列表似乎已被更改。为安全起见，请重新输入您的凭证以再次启用 TouchID。";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "设备上的已批准 FaceID 似乎已被更改。为安全起见，请重新输入您的凭证以再次使用 FaceID。";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "使用 TouchID 进行身份验证时发生了一些错误。请重新输入您的密码以再次使用 TouchID。";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "使用 FaceID 进行身份验证时发生了一些错误。请重新输入您的密码以再次使用 FaceID。";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "使用 TouchID 进行身份验证时发生了一些错误。请重新输入您的凭据以再次使用 TouchID。";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "使用 FaceID 进行身份验证时发生了一些错误。请重新输入您的凭据以再次使用 FaceID。";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "您的设备被破解 (被越狱)，并且由于网络连接问题，您无法访问该应用程序。";
+
+"AccessRevokedTitle" = "应用访问被撤销";
+"AccessDeniedTitle" = "应用访问被拒绝";
+"YourDeviceIsNotCompliantMessage" = "您的设备不符合 IT 管理员设置的合规性标准。";
+"DeviceIsCompliantMessage" = "设备合规";
+"PoliciesViolated" = "违反策略:";
+"PleaseContactYourITAdmitistator" = "请联系您的 IT 管理员。";
+"YourEnterpriseDataWillBeWiped" = "任何企业应用程序数据都已被擦除。";
+"NonComplianceReasonJailbroken" = "您的设备遭到入侵 (越狱)。";
+"NonComplianceReasonAppVersion" ="不支持的应用版本。";
+"NonComplianceReasonOSVersion" = "不支持的操作系统版本。";
+"OSVersionCompliance" = "iOS 版本合规。";
+"AppVersionCompliance" = "应用程序版本合规。";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "设备未使用该 AirWatch 用户账户注册。";
+"NotMDMEnrolledErrorMessage" = "用户尝试登录到需要 MDM 注册的环境，请向管理员查询";
+"UDIDiOS7CompatibiltiyError" = "设备和此环境不兼容。请联系您的系统管理员请求进一步协助。错误代码 %d";
+"EnvironmentRequiresAgentOrWS1" = "此环境要求您使用 AirWatch Agent 或 Workspace ONE 登录.";
+"NeedToUpdateYourEnvironmentInformation" = "您似乎已不再在此应用所登录的环境中注册。我们会立即更新您的环境信息";
+"RetryToFetchConfigurationInformation" = "我们无法检索配置信息。请按下继续，再次尝试";
+"UnableToDetermineOldPasscode" = "无法确定您的旧密码。您应该输入密码来取回数据或彻底从 SSP 重置";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "所提供的令牌无效。";
+"AuthorizationToken" ="授权令牌";
+"Token" = "令牌";
+"UseToken" = "使用令牌";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK 在尝试从自动发现中提取证书时公钥身份验证失败";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK 在尝试与设备服务通信时公钥身份验证失败";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "DataSample 传输失败";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "满电";
+"UIDeviceBatteryStateChargingMessage" = "正在充电";
+"UIDeviceBatteryStateUnpluggedMessage" = "已拔出电源";
+"NeedCameraPermission" = "此应用程序无法访问您的相机。要启用访问权限，请轻触“设置”并打开相机";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "管理员不允许在所选应用中打开此文档。";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "您设备上没有安装用来执行%@操作的获准应用。";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "连接失败，状态代码为 %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "密码";
+"EnterPasscodeError" = "请输入新密码";
+"MaximumPasscodeAgeHasExpired" = "您当前的密码已过期。请创建新密码。";
+"AttemptsLeftMessage" = "您还有 %d 次尝试机会";
+"PasscodeHasChangedEnterNewPasscode" = "您的密码已经更改，您仍在使用旧密码。请输入正确的新密码";
+
+"PasscodesMustMatch" = "密码必须匹配";
+"CreatePasscode" = "创建密码";
+"CreateNewPasscode" = "创建新密码";
+"ConfirmPasscode"         = "确认密码";
+"OnePasscodeForWS1Apps" = "您所有的 Workspace ONE 应用只需一个密码.";
+"EnterSharedPasscode" = "输入共享密码";
+"CreateSharedPasscode" = "创建共享密码";
+"ForgotPasscode"          = "忘记密码?";
+"PasscodeDidntMatch"      = "密码不匹配，请重新输入";
+"PasscodeRestriction"     = "密码限制";
+"ForgotPasscodeNotAvailable" = "“忘记密码”在您的管理员配置的操作模式下不可用。如果您需要重设密码，请重新注册。";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "您的密码不符合限制规定。";
+"PasscodeRequirementChanged" = "密码要求已更改，请创建新密码。";
+
+"IncorrectPasscodeEntered" = "输入的密码不正确";
+"MimimumPasscodeLength"   = "您的密码应当至少有 %d 个字符。";
+"MimimumComplexCharacters"= "您的密码应当至少有 %d 个复杂字符。";
+"MinimumNumericPasscodeLengthInstruction" = "您的密码应当至少有 (%d) 个数字";
+"MaximumPasscodeLength"   = "您的密码不能超过 %d 个字符。";
+"MaximumNumericPasscodeLengthInstruction" = "您的密码不应有超过 %d 个数字";
+"NonMatchingPasscodeHistoryInstruction" = "您的密码不能与最后 (%d) 次的密码。";
+"CannotBeSimpleNumericPasscodeInstrution" = "您的密码不能为重复/升序/降序";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "您的密码不能有重复/升序/降序的字符";
+"MinimumComplexSymbolsRequiredInstruction" = " 您的密码应当至少有 (%d) 个符号";
+"AlphanumericNumberAndCharactersRequirement" = "您的密码应当至少有 1 个数字和 1 个字符";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "缺少代理服务器配置";
+"FailedToGetPACscript" = "获取 PAC 脚本失败。";
+"SetAutoConfigURLProperty" = "设置 autoConfigURL 属性。";
+"AutoConfigURLPropertyIsNotSet" = "未设置 autoConfigURL 属性。";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "请确保指定的自动配置 URL 内有一个有效的脚本。";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "无法对从自动配置 URL 检索到的数据进行解码。";
+"FailedToRetrievedAutoConfigUrlData" = "无法从自动配置 URL 中检索数据。";
+"MakeSurePACURLisValid" = "请确保 PAC URL 有效。";
+"ErrorAlertProxy" = "配置 MAG 时发生故障。请检查您的 MAG 设置。";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "提供的服务器 URL 无效。请重试。";
+"UnknownServerErrorMessage" ="服务器发生未知错误。请联系您的管理员。";
+"EndpointUnavailable" = "该请求对您当前使用的控制台版本不可用。";
+"ConnectionLostError" = "失去服务器连接。\n请稍后再试。";
+
+"GroupID" = "组 ID";
+"ServerURL" = "服务器 URL";
+
+"ServerURLConnectionError" = "连接到服务器时出错。请检查您的网络连接或者联系您的系统管理员";
+"EmptyServerDetailsErrorMessage" = "请输入有效的服务器 URL 和组 ID 以继续。";
+"PendingUnenrollmentReportConnectivityError" = "为了能继续操作，请确保您的设备已连接到网络。";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "由于收到“Stop SDK”请求，应用程序已经停止初始化。";
+"RegisteringApplicationBlocked" = "控制台没有授权在此设备上使用该应用程序。";
+"EnrollmentInformationSetup" = "无法完成注册状态的检索。";
+"EmptyProfiles" = "没有检索到 SDK 配置文件，而且没有保存任何配置文件。";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "目前无法检索集成化身份验证的证书。";
+"ApplicationIdentityNotSet" = "用户身份标识验证失败。";
+"FailedToFetchPinningCertificate" = "目前无法检索 SSL 固定证书。";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "目前无法检索应用程序的环境信息。";
+"ApplicationConfiguredIncorrectly" = "尚未正确配置应用程序。尚未通过 SDK 正确设置此应用程序的回拨方案。";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "发生未知错误。请联系您的管理员";
+"CannotUserSettingsErrorReAuthenticate"     = "无法使用 MDM 服务器提供的设置。请输入您的用户和密码以登录。";
+"ErrorCode" = "错误代码:";
+"AnErrorOccured" = "发生错误";
+"ContactYourAdministrator" = "请联系您的 IT 管理员，以获得更多信息";
+"PleaseContactYourAdminstrator" = "请联系您的管理员";
+"CannotUpdateCredentialsWhileLocked" = "在数据存储解锁之前，无法更新凭证";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "您的管理员限定只能在 %@ 类应用程序中访问复制的内容。";
+"CopyInRestriction" = "您的管理员已经禁止从未受管的来源粘贴内容。";
+"TamperedPasteboardContents" = "您的粘贴板内容似乎遭到篡改。";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "设置";
+"Success" = "成功";
+"ThatWorks"= "很不错!";
+"ThatsAMatch" = "密码匹配!";
+"managed" = "纳管";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "未知";
+"Ok" = "确定";
+"Retry" = "重试";
+"Wipe" = "擦除";
+"Warning" = "警告";
+"ErrorTitle" = "错误";
+"UnknownError" = "未知错误";
+"Notice" = "通知";
+"TryAgain"= "重试";
+"EnableCameraAccess" = "允许访问相机";
+"ScanQRCodeTitle" = "扫描二维码以填写表格";
+"Copy" = "复制";
+"CopyLink" = "复制链接";
+"CopyImage" = "复制图片";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "解除";
+"Change"            = "更改";
+"Confirm"="确认";
+"Update" = "更新";
+"Cancel"            = "取消";
+"Login"             = "登录";
+"OK"                = "确定";
+"Continue"                = "继续";
+"Create" = "创建";
+"ManualSetup" = "手动设置";
+"Accept"="接受";
+"DeclineTitle" = "拒绝";
+"Back" = "返回";
+"Next" = "下一项";
+"SignIn" = "登录";
+"UseUserNamePassword" = "使用用户名-密码";
+"ScanQRCode" = "扫描二维码";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "使用条款";
+"TermsAndConditionsAllCaps" = "条款和条件";
+"TermsAndConditions" = "条款和条件";
+"EmailAddress" = "电子邮件地址";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "脱机访问受限制。请连接到 Internet 后再访问有关资源。";
+"OfflineAccessDurationExceeded" = "您已达到脱机访问的次数限制。请连接到 Internet 后再访问有关资源。";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "设备签出失败";
+"NetworkConnectionLost" = "失去网络连接";
+"ConnectionUnavailable" = "连接不可用";
+"DeviceNotEnrolled" = "设备尚未注册";
+"DeviceNonCompliant" = "设备不合规";
+"InvalidLocationGroup"  = "位置组无效";
+"DeviceAlreadyCheckedIn" = "设备已签入";
+"DeviceAlreadyCheckedOut" = "设备已签出";
+"InvalidCheckOutRequest" = "签出请求无效";
+"FailedToSignRequest" = "签字请求失败";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "设备上未存储 MAG 授权证书，或该证书无效。";
+"ProxyAuthenticationRequired" = "需要代理服务器身份验证。";
+"InvalidAuthenticationForProxy" = "为代理服务器提供的身份验证无效。";
+"CheckAuthenticationCredentialsAndTryAgain" = "请检查您的身份验证凭证，然后重试。";
+"MissingDeviceRootCertificate" = "缺少设备根证书";
+"AnActivationCode(LG)WasNeverSaved" = "从未保存激活码 (位置组)。";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "无法启动 AWCompliance";
+"InvalidCredentialsErrorTitle" = "凭证无效。请检查您的登录信息和组 ID，然后重试。";
+"InvalidActivationCodeErrorMessage" = "提供的组 ID 无效。请重试。";
+"DeviceNotFoundErrorMessage" = "此 AirWatch 实例上找不到设备。请先注册后再尝试使用此应用程序。";
+"DeviceNotEnrolledErrorMessage" = "设备未在此 AirWatch 实例上注册。请先注册后再尝试使用此应用程序。";
+"AccountLockedErrorMessage"                 = "您的账户被锁定在 LDAP/Airwatch 之外，请向管理员查询";
+"InActiveErrorMessage"                      = "您的帐户已在 AirWatch 控制台被停用，请向管理员查询";
+"InvalidTokenErrorMessage"                  = "用户尝试以过期令牌或不存在的令牌登录，请向管理员查询";
+"SyncClientNotEnabledErrorMessage"          = "同步客户端未启用，请向管理员查询";
+"PersonalContentNotEnabledErrorMessage"     = "个人内容未启用，请向管理员查询";
+"AwchatNotEnabled"                          = "AWChat 未启用，请向管理员查询";
+"NoDeviceLogsToSend" = "没有要发送的设备日志";
+"EmptyLogFile" ="日志文件空白。";
+"NeedsWiFiToSendLogData" ="AWConsole 需要建立 WI-FI 连接才能发送日志数据。";
+"AWRestrictionsFailedToStart" = "AWRestrictions 启动失败";
+"FailedToGetToken"  = "无法签出设备。请重试或联系管理员。";
+"FailedToInvalidateToken" = "无法使令牌失效。";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "请输入您的 PIN 和 SecureID 令牌。";
+"AnswerPlaceHolderNewPin" = "PIN";
+"ChallengeServerError" = "服务器错误。请联系您的管理员。";
+"ChallengeLocked" = "您的账户已被锁定。请联系您的管理员。";
+"ChallengeNextTokenAuth" = "请输入您的 PIN 和下一个 SecureID 令牌";
+"ChallengeNextTokenAuthAfterNewPinSet" = "请输入您的 PIN 和 SecureID 令牌";
+"ChallengeNewPinFromSystem" = "按此方式输入 PIN";
+"ChallengeNewPinFromUser" = "输入新 PIN";
+"ChallengeTokenAuth" = "输入您的 PIN 和 SecureID 令牌。如果您尚未设置 PIN，请仅输入您的 SecureID 令牌。";

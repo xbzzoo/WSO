@@ -1,0 +1,272 @@
+
+//  Copyright © 2016 VMware, Inc. All rights reserved. This product is protected
+//  by copyright and intellectual property laws in the United States and other
+//  countries as well as by international treaties. VMware products are covered
+//  by one or more patents listed at http://www.vmware.com/go/patents.
+//
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+/************* Authentication Related Localized Strings **********/
+"InvalidCredentialsTitle" = "The supplied credentials could not be validated. Please retry.";
+"AuthenticateToResetPasscode" = "You need to authenticate first to reset your passcode";
+"Username"="Username";
+"Password" = "Password";
+"UpdateUsernameWarningMessageTitle" = "Are you sure you want to update the username?";
+"ChangingUserWarning" = "Logging into this app using credentials other than the one specified may result in unexpected behavior.";
+"LastAuthenticationAttemptWipeWarning"="This is your last attempt. Application data will be wiped after one more unsuccessful attempt";
+
+/************* Biometric Authentication Related Localized Strings **********/
+"UseTouchID" = "Use TouchID";
+"UseFaceID" = "Use FaceID";
+
+"AuthenticateForAccess" = "Authenticate for Access";
+
+"CryptKeyRetrievalFromTouchIDFailedPasscodeMessage" = "The list of fingerprints on the device appears to have changed. For security purposes, please re-enter your passcode to enable using TouchID again.";
+"CryptKeyRetrievalFromFaceIDFailedPasscodeMessage" = "The approved FaceID on this device appears to have changed. For security purposes, please re-enter your passcode to enable using FaceID again.";
+
+"CryptKeyRetrievalFromTouchIDFailedCredentialsMessage" = "The list of fingerprints on the device appears to have changed. For security purposes, please re-enter your credentials to enable using TouchID again.";
+"CryptKeyRetrievalFromFaceIDFailedCredentialsMessage" = "The approved FaceID on this device appears to have changed. For security purposes, please re-enter your credentials to enable using FaceID again.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageTouchID" = "Some error occurred while authenticating with TouchID. Please re-enter your passcode to enable using TouchID again.";
+"MasterKeyRetrievalFromSecondaryKeyFailedPasscodeMessageFaceID" = "Some error occurred while authenticating with FaceID. Please re-enter your passcode to enable using FaceID again.";
+
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageTouchID" = "Some error occurred while authenticating with TouchID. Please re-enter your credentials to enable using TouchID again.";
+"MasterKeyRetrievalFromSecondaryKeyFailedCredentialsMessageFaceID" = "Some error occurred while authenticating with FaceID. Please re-enter your credentials to enable using FaceID again.";
+
+/********* Compliance Related Localized Strings *********/
+"AWCompromiseBlockerMessageWhenNoNetwork" = "Your device is compromised (jail broken).And due to network connectivity, you can not access your application.";
+
+"AccessRevokedTitle" = "App access revoked";
+"AccessDeniedTitle" = "App access denied";
+"YourDeviceIsNotCompliantMessage" = "Your device does not meet compliance standards set by your IT administrator.";
+"DeviceIsCompliantMessage" = "Device is compliant";
+"PoliciesViolated" = "Policies Violated:";
+"PleaseContactYourITAdmitistator" = "Please contact your IT administrator.";
+"YourEnterpriseDataWillBeWiped" = "Any enterprise app data has been wiped.";
+"NonComplianceReasonJailbroken" = "Your device has been compromised (jailbroken).";
+"NonComplianceReasonAppVersion" ="Unsupported app version.";
+"NonComplianceReasonOSVersion" = "Unsupported OS version.";
+"OSVersionCompliance" = "iOS version is compliant.";
+"AppVersionCompliance" = "Application version is compliant.";
+
+/************* Enrollment Related Localized Strings **********/
+"DeviceMismatchErrorMessage" = "The device is not enrolled with this AirWatch user account.";
+"NotMDMEnrolledErrorMessage" = "User attempt to login to an environment where MDM enrollment is required, please check with administrator";
+"UDIDiOS7CompatibiltiyError" = "Device is not compatible with this environment. Please contact your system administrator for further assistance. Error Code %d";
+"EnvironmentRequiresAgentOrWS1" = "This environment requires you to sign-in with either AirWatch Agent or Workspace ONE.";
+"NeedToUpdateYourEnvironmentInformation" = "It looks like you are no longer enrolled in this app’s registered environment. We’ll now attempt to update your environment information";
+"RetryToFetchConfigurationInformation" = "We were unable to retrieve the configuration information. Press continue to try again";
+"UnableToDetermineOldPasscode" = "Unable to determine your old passcode. You should enter passcode to get your data back or reset completely from SSP";
+
+/************* Token Authentication Localized Strings **********/
+"InvalidTokenError" = "Invalid token was supplied.";
+"AuthorizationToken" ="Authorization Token";
+"Token" = "Token";
+"UseToken" = "Use Token";
+
+/************ Certificate Pinning Localized Strings *************/
+"AutodiscoveryPublicKeyAuthenticationFailureMessage" = "AW-SDK is getting public key authentication failure, while trying to fetch certificate  from autodiscovery";
+"EnrollmentServerPublicKeyAuthenticationFailureMessage" = "AW-SDK is getting public key authentication failure, while trying to communicate with Device-services";
+
+/************* DataSampler Localized Strings **********/
+"DataSampleFailedTransmitTitle" = "DataSample failed to transmit";
+
+/************* Device Related Localized Strings **********/
+"UIDeviceBatteryStateFullMessage" = "Full";
+"UIDeviceBatteryStateChargingMessage" = "Charging";
+"UIDeviceBatteryStateUnpluggedMessage" = "Unplugged";
+"NeedCameraPermission" = "This application does not have access to your camera. To enable access, tap Settings and turn on Camera";
+
+/************* DocumentInteractionController Related Localized strings **********/
+"AccessAlertMessage" = "The administrator doesn't allow this document to be opened in the selected app.";
+
+/********************** Link Interception Related Localized Strings *******************/
+"TargetAppNotInstalledMessage" = "You do not have the permitted apps installed on your device to perform the %@ action.";
+
+/************* Networking Related Localized Strings **********/
+"ConnectionFailureFormat" = "Connection failed with status code %d";
+
+/*************  Passcode Related Localized strings **********/
+"Passcode"          = "Passcode";
+"EnterPasscodeError" = "Please enter the new passcode";
+"MaximumPasscodeAgeHasExpired" = "Your current passcode has expired. Please create a new passcode.";
+"AttemptsLeftMessage" = "You have %d attempts left";
+"PasscodeHasChangedEnterNewPasscode" = "Your password has already been changed and you are still using the old one. Please enter the new correct one";
+
+"PasscodesMustMatch" = "Passcodes must match";
+"CreatePasscode" = "Create passcode";
+"CreateNewPasscode" = "Create new passcode";
+"ConfirmPasscode"         = "Confirm Passcode";
+"OnePasscodeForWS1Apps" = "One passcode for all your Workspace ONE apps.";
+"EnterSharedPasscode" = "Enter shared Passcode";
+"CreateSharedPasscode" = "Create shared passcode";
+"ForgotPasscode"          = "Forgot Passcode?";
+"PasscodeDidntMatch"      = "Passcode didn't match, Re-enter them again";
+"PasscodeRestriction"     = "Passcode Restriction";
+"ForgotPasscodeNotAvailable" = "Forgot passcode is not available in the mode of operation configured by your administrator. Please re-enroll if you need to reset your passcode.";
+
+/*************  Passcode Compliance Related Localized strings **********/
+"Passworddonotcomplyrestriction"  = "Your passcode does not comply with the restrictions.";
+"PasscodeRequirementChanged" = "Passcode requirements have changed, please create a new passcode.";
+
+"IncorrectPasscodeEntered" = "Passcode entered is incorrect";
+"MimimumPasscodeLength"   = "Your passcode should have at least %d characters.";
+"MimimumComplexCharacters"= "Your passcode should have at least %d complex characters.";
+"MinimumNumericPasscodeLengthInstruction" = "Your passcode should have at least (%d) numbers";
+"MaximumPasscodeLength"   = "Your passcode should not be more than %d characters.";
+"MaximumNumericPasscodeLengthInstruction" = "Your passcode should not have more than %d numbers";
+"NonMatchingPasscodeHistoryInstruction" = "Your passcode should not match last (%d) passcodes.";
+"CannotBeSimpleNumericPasscodeInstrution" = "Your passcode should not be repeating/ascending/descending";
+"CannotBeSimpleAlphanumericPasscodeInstrution" = "Your passcode should not have repeating/ascending/descending characters";
+"MinimumComplexSymbolsRequiredInstruction" = "Your passcode should have at least (%d) symbol(s)";
+"AlphanumericNumberAndCharactersRequirement" = "Your passcode should have at least 1 number and 1 character";
+
+/*************  Proxy Related Localized strings **********/
+"TheProxyConfigurationIsMissing" = "The Proxy configuration is missing";
+"FailedToGetPACscript" = "Failed to get PAC script.";
+"SetAutoConfigURLProperty" = "Set the autoConfigURL property.";
+"AutoConfigURLPropertyIsNotSet" = "The autoConfigURL property isn't set.";
+"MakeSureForValidScriptLocatedAtAutoConfigURL" = "Make sure there is a valid script located at the specified auto config URL.";
+"FailedToDecodeAutoConfigUrlRetrievedData" = "Failed to decode the data retrieved from the auto config url.";
+"FailedToRetrievedAutoConfigUrlData" = "Failed to retrieve data from auto config url.";
+"MakeSurePACURLisValid" = "Make sure PAC URL is valid.";
+"ErrorAlertProxy" = "There is some issue to configure MAG. Please check your MAG setting.";
+
+/************* Server Related Localized Strings **********/
+"InvalidServerURLErrorMessage" = "The supplied server URL is invalid. Please retry.";
+"UnknownServerErrorMessage" ="An unknown server error has occurred. Please contact your adminstrator.";
+"EndpointUnavailable" = "This request is unavailable on your current console version.";
+"ConnectionLostError" = "The connection to the server was lost.\nTry again later.";
+
+"GroupID" = "Group ID";
+"ServerURL" = "Server URL";
+
+"ServerURLConnectionError" = "Error connecting to the server. Please check your network connection or contact your system administrator";
+"EmptyServerDetailsErrorMessage" = "Please enter a valid server URL and group ID to continue.";
+"PendingUnenrollmentReportConnectivityError" = "In order to continue, make sure your device is connected to the network.";
+
+/********************** SDK Setup Error Related Localized Strings *******************/
+"StopSDKRequested" = "Application has stopped initialization due to a \"Stop SDK\" request.";
+"RegisteringApplicationBlocked" = "Application is not entitled for usage on this device by the console.";
+"EnrollmentInformationSetup" = "Enrollment status retrieval could not be completed.";
+"EmptyProfiles" = "No SDK profiles were retrieved, and there are no saved profiles.";
+"IntegratedAuthenticationCertificatesNotDownloaded" = "Integrated authentication certificates could not be retrieved at this time.";
+"ApplicationIdentityNotSet" = "Failed to validate user’s identity.";
+"FailedToFetchPinningCertificate" = "SSL pinning certificates could not be retrieved at this time.";
+"FailedToFetchEnvironmentInformationFromAirWatchApplication" = "Environment information for application could not be retrieved at this time.";
+"ApplicationConfiguredIncorrectly" = "Application has not been configured correctly. Callback schemes for this application are not properly set with the SDK.";
+
+/************* General Error Localized Strings **********/
+"UnknownErrorMessage" = "An unknown error has occurred. Please contact your administrator";
+"CannotUserSettingsErrorReAuthenticate"     = "Can not use the settings provided by MDM server. Please enter your username and password to login.";
+"ErrorCode" = "Error code:";
+"AnErrorOccured" = "An error occured";
+"ContactYourAdministrator" = "For more information, please contact your IT administrator";
+"PleaseContactYourAdminstrator" = "Please Contact Your Administrator";
+"CannotUpdateCredentialsWhileLocked" = "The credentials can not be updated until the data store is unlocked";
+
+/************* Data Loss Prevention Releated Localized Strings **********/
+"CopyOutRestriction" = "Your admin has restricted the copied content to be only accessible within %@ applications.";
+"CopyInRestriction" = "Your admin has disallowed pasting from unmanaged sources.";
+"TamperedPasteboardContents" = "Your pasteboard contents appear to have been tampered with.";
+
+/*************  Miscellanious Localized strings **********/
+"Settings" = "Settings";
+"Success" = "Success";
+"ThatWorks"= "That Works!";
+"ThatsAMatch" = "That’s a match!";
+"managed" = "managed";
+
+/*************  KeyWindowAlert Title Localized strings **********/
+"UnknownTitle" = "Unknown";
+"Ok" = "OK";
+"Retry" = "Retry";
+"Wipe" = "Wipe";
+"Warning" = "Warning";
+"ErrorTitle" = "Error";
+"UnknownError" = "Unknown Error";
+"Notice" = "Notice";
+"TryAgain"= "Try Again";
+"EnableCameraAccess" = "Enable Camera Access";
+"ScanQRCodeTitle" = "Scan QR code to fill form";
+"Copy" = "Copy";
+"CopyLink" = "Copy Link";
+"CopyImage" = "Copy Image";
+
+/*************  Button Action Title Localized strings **********/
+"Dismiss"    = "Dismiss";
+"Change"            = "Change";
+"Confirm"="Confirm";
+"Update" = "Update";
+"Cancel"            = "Cancel";
+"Login"             = "Login";
+"OK"                = "OK";
+"Continue"                = "Continue";
+"Create" = "Create";
+"ManualSetup" = "Manual setup";
+"Accept"="Accept";
+"DeclineTitle" = "Decline";
+"Back" = "Back";
+"Next" = "Next";
+"SignIn" = "Sign in";
+"UseUserNamePassword" = "Use username-password";
+"ScanQRCode" = "Scan QR code";
+
+/*************  UI Label/TextField Name Localized strings **********/
+"TermsOfUse" = "Terms Of Use";
+"TermsAndConditionsAllCaps" = "TERMS AND CONDITIONS";
+"TermsAndConditions" = "Terms and Conditions";
+"EmailAddress" = "Email Address";
+
+/********************** Offline Access Related Localized Strings *******************/
+"OfflineAccessNotAllowed"       = "Offline access is restricted. Please connect to the internet to access resources.";
+"OfflineAccessDurationExceeded" = "You have reached limit of offline access. Please connect to the internet to access resources.";
+
+/************* Unused Localized Strings **********/
+
+//AssetManagement Localized strings (all only used in AWError)
+"DeviceCheckoutFailed" = "Device Checkout Failed";
+"NetworkConnectionLost" = "Network Connection Lost";
+"ConnectionUnavailable" = "Connection Unavailable";
+"DeviceNotEnrolled" = "Device is not enrolled";
+"DeviceNonCompliant" = "Device is not compliant";
+"InvalidLocationGroup"  = "Location group is not valid";
+"DeviceAlreadyCheckedIn" = "Device already checked in";
+"DeviceAlreadyCheckedOut" = "Device already checked out";
+"InvalidCheckOutRequest" = "Invalid checkout request";
+"FailedToSignRequest" = "Failed to sign request";
+"MAGAuthCertificateNotStoredOnTheDevice,OrItIsInvalid" = "There is no MAG auth cert stored on the device, or it is invalid.";
+"ProxyAuthenticationRequired" = "Proxy Authentication Required.";
+"InvalidAuthenticationForProxy" = "The authentication provided to the proxy is invalid.";
+"CheckAuthenticationCredentialsAndTryAgain" = "Check your authentication credentials and try again.";
+"MissingDeviceRootCertificate" = "Missing Device Root Certificate";
+"AnActivationCode(LG)WasNeverSaved" = "An Activation Code (LG) was never saved.";
+
+//Used only in AWError (need to check it those errors are used):
+"AWComplianceFailedToStart" = "AWCompliance failed to start";
+"InvalidCredentialsErrorTitle" = "Invalid Credentials. Please check your login information and group Id and retry.";
+"InvalidActivationCodeErrorMessage" = "The supplied group ID is invalid. Please retry.";
+"DeviceNotFoundErrorMessage" = "The device was not found on this AirWatch instance. Please enroll before attempting to use this application.";
+"DeviceNotEnrolledErrorMessage" = "The device is not enrolled on this AirWatch instance. Please enroll before attempting to use this application.";
+"AccountLockedErrorMessage"                 = "Your account is locked out in LDAP/Airwatch, please check with administrator";
+"InActiveErrorMessage"                      = "Your account has been deactivated in the Airwatch console, please check with administrator";
+"InvalidTokenErrorMessage"                  = "User attempts to login with an expired token/a token that does not exist, please check with administrator";
+"SyncClientNotEnabledErrorMessage"          = "Sync client not enabled, please check with administrator";
+"PersonalContentNotEnabledErrorMessage"     = "Personal content not enabled, please check with administrator";
+"AwchatNotEnabled"                          = "AWChat not enabled, please check with administrator";
+"NoDeviceLogsToSend" = "There are no device logs to send";
+"EmptyLogFile" ="Log file is empty.";
+"NeedsWiFiToSendLogData" ="The AWConsole requires WIFI connection to send log data.";
+"AWRestrictionsFailedToStart" = "AWRestrictions failed to start";
+"FailedToGetToken"  = "Unable to check out the device. Please try again or contact an administrator.";
+"FailedToInvalidateToken" = "Failed to invalidate token.";
+
+"AnswerPlaceHolderPinAndSecureIDToken" = "Please enter your PIN and SecureID token.";
+"AnswerPlaceHolderNewPin" = "PIN";
+"ChallengeServerError" = "Server Error. Please contact your administrator.";
+"ChallengeLocked" = "Your Account has been locked. Please contact your administrator.";
+"ChallengeNextTokenAuth" = "Please enter your PIN and next SecureID token";
+"ChallengeNextTokenAuthAfterNewPinSet" = "Please enter your PIN and SecureID token";
+"ChallengeNewPinFromSystem" = "Enter PIN as";
+"ChallengeNewPinFromUser" = "Enter new PIN";
+"ChallengeTokenAuth" = "Please enter your PIN and SecureID token. If you have not set your PIN, only enter your SecureID token.";
