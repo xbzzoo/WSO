@@ -20,4 +20,4 @@
 # WSO API
 文档链接: https://pan.baidu.com/s/1LrCqcZrkR2u_C8-shNIeMQ 提取码: w46b
 
-使用说明 ：参见API文档说明
+使用说明 ：参见API调用说明
